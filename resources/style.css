@@ -1,0 +1,258 @@
+/* use for font font-family: 'Titillium Web', sans-serif; */
+
+#head{
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(img/home/background5.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/home/background5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+}
+
+#navImg{
+    height:100px;
+    display: inline;
+}
+.deskNavSpan{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight:800;
+    font-size:26px;
+    display:inline;
+    margin-top:15px;
+    padding:12px;
+    color:white;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.deskNavSpan:hover{
+    cursor:pointer;
+    text-shadow: 4px 4px 4px black;
+    color:rgb(180,71,77);
+}
+#hamburger{
+    color:white;
+    text-shadow:4px 4px 4px black;
+    position:fixed;
+    top:25px;
+    right:15px;
+    font-size: 28px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+#hamburger:hover{
+    cursor: pointer;
+    color: rgb(180,71,77);
+}
+@media (max-width:350px){
+    #navImg{
+        height:75px;
+    }
+    #hamburger{
+        top:15px;
+    }
+}
+@media (min-width:768px){
+    #hamburger{
+    font-size:34px;
+    }
+    
+}
+
+@media(max-width:1024px){
+    .deskNavSpan{
+        display: none;
+    }
+    #head{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(img/home/background6.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/home/background6.jpg);
+    }
+}
+@media (min-width:1025px){
+    #hamburger{
+        display: none;
+    }
+}
+
+.bottom{
+    width:100%;
+    height:30%;
+    position: absolute;
+    bottom: 0px; 
+}
+
+.bottomSquare{
+    width:23.5%;
+    padding:0;
+    margin:0;
+    display:inline-block;
+    height:100px;
+    background-color:black;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    position:absolute;
+    bottom:0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-align: center;
+    border:1px solid white;  
+}
+
+.bottomSquare:hover{
+    cursor: pointer;
+    color: transparent;
+}
+
+#square1{
+    background-image: url(img/home/beers.jpg);
+    background-position: center;
+    background-attachment: local;
+    background-size: cover;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    left:1%;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    text-shadow: 3px 3px 5px black;
+}
+#square1:hover{
+    height:20%;
+    text-shadow: none;
+    border:none;
+}
+
+#square2{
+    background-image: url(img/home/menus.jpg);
+    background-position: center;
+    background-attachment: local;
+    background-size: cover;
+    left:26%;
+    text-shadow: 3px 3px 5px black;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+#square2:hover{
+    height:20%;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    text-shadow: none;
+    border:none;
+}
+#square3{
+    background-image: url(img/home/photos.jpg);
+    background-position: center;
+    background-attachment: local;
+    background-size: cover;
+    left:51%;
+    color:white;
+    text-shadow: 3px 3px 5px black;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+#square3:hover{
+    height:20%;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    text-shadow: none;
+    border:none;
+}
+#square4{
+    background-image: url(img/home/history.png);
+    background-position: center;
+    background-attachment: local;
+    background-size: cover;
+    left:76%;
+    text-shadow: 3px 3px 5px black;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+#square4:hover{
+    height:20%;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    text-shadow: none;
+    border:none;
+}
+.boxText{
+    position:absolute; height:100%; width:100%;display: table;color:white;
+}
+.boxText:hover{
+    color: transparent;
+}
+.vert{
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 900;
+    width:100%;
+    text-align: center;
+
+}
+@media (max-width:767px){
+    .vert{
+        font-size:16px;
+    }
+}
+
+#beerwrap{
+    display: inline-block;
+    position: absolute;
+    top:100px;
+    left:50px;
+    height:500px;
+    color:white;
+    text-shadow: 4px 4px 4px black;
+
+}
+.beerInfo{
+    position: absolute;
+    display: inline-block;
+    left:180px;
+    bottom:130px;
+    width:400px;
+    text-align: left;
+    font-family: 'Titillium Web', sans-serif;
+    top:225px;
+}
+.beerTitle{
+    display:block;
+    font-size:24px;
+    font-weight: 800;
+}
+.beerABV{
+    display:block;
+    font-size:22px;
+    font-weight: 700;
+}
+.beerDescription{
+    display:block;
+    font-size:18px;
+    font-weight: 500;
+}
+
+@media (max-width:767px){
+    #beerwrap{
+        left:-50px;
+        
+    }
+    .beerInfo{
+        max-width:220px;
+    }
+    .beerTitle{
+
+    font-size:18px;
+
+}
+.beerABV{
+
+    font-size:16px;
+
+}
+.beerDescription{
+    font-size:14px;
+
+}
+}
+
