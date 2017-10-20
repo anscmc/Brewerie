@@ -235,7 +235,7 @@
 @media (max-width:767px){
     #beerwrap{
         left:-50px;
-        
+        top:75px;
     }
     .beerInfo{
         max-width:220px;
