@@ -1,0 +1,4 @@
+chevron on desktop, tablet and below touch swipe accross icon pulse a few times then dissapear. 
+have curtis make the beer/text images so can use them in a touch gallery (google)
+train going accross (css3 animation) loading screen. something related to Brewerie getting pulled by train. 
+move remote resources below the fold?? (so everything can load properly)
