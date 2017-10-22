@@ -1,4 +1,21 @@
 chevron on desktop, tablet and below touch swipe accross icon pulse a few times then dissapear. 
+button below beer bottle to go to seasonal beer.
 have curtis make the beer/text images so can use them in a touch gallery (google)
+beers page switcher at top (year round/seasonal).
 train going accross (css3 animation) loading screen. something related to Brewerie getting pulled by train. 
 move remote resources below the fold?? (so everything can load properly)
+
+Hello _______,
+
+Matt told me you were interested in a new website for The Brewerie, so I built a prototype of what I think helps better represent your brewpub.
+Here's the link to a demo (and some notes below):
+Homepage: I think a similar picture, but one taken when the room is mostly filled with people would look great.
+I think it would be really cool to have our photographer get individual pictures of your bottled beer so we can show them on the home page,
+as well as the "Beers" page. It would also be a good idea to have curtis take new pictures for the site because a great website relies on great pictures,
+especially those representing the food and beverage industry. If you're interested, let me know! We can have your website up in no time.
+
+Thanks,
+Andrew
+
+email to lavery with same link saying we could do something similar (or completetly different), either way I know we can make you a great
+looking site that helps best represent your company
