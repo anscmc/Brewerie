@@ -57,7 +57,7 @@
 #gal{
     max-width: 275px;margin:0;
 }
-@media (max-width:375px){
+@media (max-width:376px){
     #gal{
         display:inline-block;
         margin-left:0;
