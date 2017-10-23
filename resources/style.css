@@ -21,6 +21,8 @@
     background-size: cover;
     height: 100vh;
     text-align: center;
+    background-color: white;
+/*
 
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.2))), url(img/home/background8.jpg);
 
@@ -28,6 +30,7 @@
     background-size: cover;
     background-position: bottom;
     background-attachment:local;
+*/
 }
 #galRow{
     padding:0 !important;
@@ -116,7 +119,7 @@ margin-right:0;
     display:inline;
     margin-top:15px;
     padding:12px;
-    color:white;
+    color:black;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
@@ -162,10 +165,12 @@ margin-right:0;
     .deskNavSpan{
         display: none;
     }
+/*
     #head{
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(img/home/background6.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/home/background6.jpg);
     }
+*/
 }
 @media (min-width:1025px){
     #hamburger{
@@ -249,7 +254,6 @@ margin-right:0;
     background-attachment: local;
     background-size: cover;
     left:51%;
-    color:white;
     text-shadow: 3px 3px 5px black;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
