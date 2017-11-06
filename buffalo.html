@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" type="text/css" href="resources/css/font-awesome/css/font-awesome.min.css">
+        
+<!--        <link rel="stylesheet" type="text/css" href="resources/css/bootstrap.min.css">-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="resources/js/jquery.waypoints.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+        <title>Buffalo | Level Red Boxing</title>
+        
+        <script type="text/javascript">
+                //smooth scroll        
+                $(document).on('click', 'a[href^="#"]', function(e) {
+                    // target element id
+                    var id = $(this).attr('href');
+
+                    // target element
+                    var $id = $(id);
+                    if ($id.length === 0) {
+                        return;
+                    }
+
+                    // prevent standard hash navigation (avoid blinking in IE)
+                    e.preventDefault();
+
+                    // top position relative to the document
+                    var pos = $id.offset().top;
+
+                    // animated top scrolling
+                    $('body, html').animate({scrollTop: pos});
+                });
+        </script>
+    </head>
+    <body>
+        <header class="motivatorsHeader">
+            <div class="topLine">
+                <a style="color:white !important;"><i class="fa fa-phone" style="color:white !important;" aria-hidden="true"></i> 814-452-6688 | 123 Level Red Road, Buffalo, NY 21834</a>
+            </div>
+            <nav>
+                <div id="top" class="row">
+                    <a href="index.html"><img alt="level red boxing gym"  src="resources/css/img/brand2.png" class="logo"></a>
+                    <ul class="main-nav js--main-nav">
+                        <li><a id="workout" href="theworkout.html">The Workout</a></li>
+<!--                        <li><a href="motivators.html">Trainers</a></li>-->
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="thelevels.html">The Levels</a></li>
+                                <li><a href="sixpunches.html">Learn the Moves</a></li>
+                                <li><a href="philosophy.html">Philosophy</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+<!--                                <li><a href="https://clients.mindbodyonline.com/ASP/su1.asp?studioid=481565&tg=&vt=&lvl=&stype=&view=&trn=0&page=&catid=&prodid=&date=5%2f31%2f2017&classid=0&prodGroupId=&sSU=&optForwardingLink=&qParam=&justloggedin=&nLgIn=&pMode=0&loc=1" class="accountButton"target="_blank">My Account</a></li>-->
+<!--
+                                <li><a href="press.html">Press</a></li>
+                                <li><a href="privateevents.html">Private Events</a></li>
+-->
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="buyclasses.html">Buy Classes</a></li>
+                        <li><a href="schedule.html">Schedule</a></li>
+                        <li><a href="https://clients.mindbodyonline.com/ASP/su1.asp?studioid=481565&tg=&vt=&lvl=&stype=&view=&trn=0&page=&catid=&prodid=&date=5%2f31%2f2017&classid=0&prodGroupId=&sSU=&optForwardingLink=&qParam=&justloggedin=&nLgIn=&pMode=0&loc=1" class="accountButton"target="_blank">My Account</a></li>
+                        <li class="freeLi"><a href="#locations" style="color:white !important;font-weight: bold;text-decoration: none !important;" href="schedule.html">FREE CLASS</a></li>
+                        
+                    </ul>
+                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+                </div>
+            </nav>
+        </header>
+        <br>
+
+        <br>
+        <h1 style="text-align: center">Buffalo, NY</h1>
+
+            <div id="locations" style="min-height: 90vh;" class="container loccon">
+                <div class="row body locrow">
+                    <div class="col-sm-6 left-side loccol">
+                        <img src="resources/img/gallery/lobby.jpg" style="width:100%;">
+                        <br>
+                        <h3>Try us for free!</h3>
+                        <input class="locationForm" placeholder="Name" type="text">
+                        <input class="locationForm" placeholder="Phone Number" type="text">
+                        <input class="locationForm" placeholder="Email" type="email">
+                        <button class="locationsBTN" type="submit">Submit</button>
+                        <br>
+                    </div>
+                    <div style="min-height: 300px" class="col-sm-6 right-side loccol">
+                    <iframe
+                  frameborder="0" style="position: absolute;top:0;left:0;height:100%;width:100%;" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD94epRsghXLEl7SmPVtKLv-p79wh0f0pI&q=Level Red Boxing, Erie, PA" allowfullscreen>
+            </iframe>
+                    </div>
+                </div>
+            </div>   
+  
+        
+        
+
+
+<div style="font-size:12px;font-weight:400 !important;padding-top:5px; text-align:center">
+             Copyright &copy; 2017 Level Red Boxing - <a style="text-decoration:underline" target="_blank" href="terms.html">Terms of Service and Privacy Policy</a>
+         </div>
+
+
+
+<!--
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+-->
+    <script src="resources/js/script.js"></script>
+    </body>  
+    
+</html>
