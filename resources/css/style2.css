@@ -40,6 +40,56 @@ ul dropdown:
             box-shadow: 0px 0px 8px 2px #000000;
 }
 */
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+.fadeIn2 {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+}
+.fadeInUp1 {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+}
+.fadeInUp2 {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1.75s;
+    animation-duration: 1.75s;
+}
+.fadeInUp3 {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+.fadeInUp4 {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+}
+.fadeInRight{
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+.fadeInLeft{
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+}
+
 h1{
     color:black!important;
 }
@@ -58,8 +108,22 @@ h1{
 
 .strongat{
     margin-bottom:0px;
+    padding:10px;
+    font-size: 36px;
+    font-weight: 100;
 }
 
+
+@media (max-width:767px){
+    .strongat{
+        font-size:20px;
+    }
+}
+@media (max-width:374px){
+    .strongat{
+        font-size:18px;
+    }
+}
 .everylevel{
     margin-bottom:0px;
     font-weight: bold;
@@ -303,11 +367,6 @@ h1{
 
 #chelsea{
     background-image:url(img/trainersAction/chelseafunportrait.jpg);
-    background-size:cover;
-    background-repeat:no-repeat;
-}
-#kaitlynne{
-    background-image:url(img/trainersAction/kaitlynnefunportrait.jpg);
     background-size:cover;
     background-repeat:no-repeat;
 }
@@ -577,26 +636,28 @@ h1{
 /*END CONTACT*/
 /*START 6 PUNCHES*/
 
+/*
 .sixSquare {
   height:50vh;
 }
+*/
 
 .sixPic{
     width:100%;
     height:100%;
     background-image: url(img/rDark.png);
-    background-position:center;
+    background-position:bottom;
     background-size: contain;
     background-repeat: no-repeat;
     opacity:.075;
-    z-index: 1;
+    z-index: 10;
     position: absolute;
     top: 0px;
     left: 0px;
 }
 
 .sixContent{
-    z-index: 2;
+    z-index: 11;
     position: absolute;
     height:100%;
     display:table;
@@ -1116,6 +1177,9 @@ input[type=submit]:active {
 .buyBtn:hover{
     color:white !important;
 }
+.buyBtn2:hover{
+    color:black !important;
+}
 
 .btn-full:hover,
 .btn-full:active {
@@ -1136,15 +1200,12 @@ input[type=submit]:active {
 /* ----------------------------------------------- */
 
 header {
-/*
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(img/kellyheader3.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/kellyheader3.jpg);
-    background-size:cover;
-    background-position:center;
-*/
-    width:100vw;
-    height: 90vh;
-/*    background-attachment:local;*/
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(img/kellyheader3.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/kellyheader3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    background-attachment:inherit;
 }
 
 .freeHeader{
@@ -1152,9 +1213,9 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/fullroom.jpg);
     background-size: cover;
     background-position: center;
-/*    height:100vh;*/
-/*    min-height:100vh;*/
-    background-attachment:local;
+    height:100%;
+    min-height:100vh;
+    background-attachment:fixed;
 }
 
 
@@ -1175,16 +1236,13 @@ header {
         box-shadow: 0 6px 12px rgba(0,0,0,.25);
         width:175px;
 }
-/*
     .landingHeader{
         height:85vh;
         background-attachment: local;
     }
-*/
     .hero-text-box{
         margin-top:0px !important;
     }
-    
 }
 
 .dropdown-menu{
@@ -1196,29 +1254,48 @@ header {
 
 
 .motivatorsHeader{
-    height:100px !important;
+    display: inline-block;
+    height:70px;
     background-image:none;
-    background-color:white;
+    color:white ;
+    
+    transition:all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    position:-webkit-sticky;
+    position:sticky;width:100%;z-index: 10001;
 }
 
+.motivatorsHeader2{
+    color:black !important;
+    background-color: white;
+
+}
+
+
+/*
 .motivatorsHeader a{
     color:black !important;
 }
 .motivatorsHeader i{
     color:black !important;
 }
+*/
 .motivatorsHeader ul{
     z-index:1000;
     background-color:white;
     border-radius:10px;
+/*    text-shadow: 2px 2px 5px black;*/
 }
 
+
+/*
 @media (max-width:1024px){
     .motivatorsHeader ul{
         -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.25);
         box-shadow: 0 6px 12px rgba(0,0,0,.25);
     }
 }
+*/
 
 @media (max-width:1024px){
     .motivatorsHeader a{
@@ -1263,7 +1340,7 @@ header {
 .logo {
     width:150px;
     float: left;
-    margin-top: 20px;
+    margin-top:3px;
 }
 
 .logo-black { 
@@ -1388,206 +1465,43 @@ header {
     border:.25px solid lightgrey;
     margin:10px;
     border-radius: 20px;
-    -webkit-box-shadow: 0px 0px 10px black;
-    box-shadow: 0px 0px 10px black;
+
+    -webkit-box-shadow: 0px 0px 15px lightgrey;
+    box-shadow: 0px 0px 15px lightgrey;
+
     text-align:center;
     display: inline-block;
 }
-
-.locations{
-    background-color:#EE3A43;
-/*    height:100vh;*/
-}
-
-.socialButttons{
-    color:black !important;
-}
-
-.socialButtons:hover{
-    color:#EE3A43 !important;
+.storeitems{
+    width:75%;
 }
 
 
-.locationsMap{
-    height:80vh;
-    width:100%;
-    overflow:hidden;
-    border:0;
-    max-height:80vh;
-    margin-top:5px;
+textarea {
+    resize: none;
 }
-@media (max-width:767px){
-    .mapWrap{
-        margin-left:-30px;
-        margin-right:-30px;
-        -webkit-box-shadow: 0px -3px 25px -2px rgba(38,38,38,1);
-        box-shadow: 0px -3px 25px -2px rgba(38,38,38,1);
+#storeUL{
+    margin-right:0%;
+    z-index: 10000 !important;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+@media (max-width:1024px){
+    #storeUL{
+        display:none;
     }
-    .locationsMap{
-        margin-top:0px;
-        margin-bottom:-5px;
+    .showUL{
+        display:block !important;
     }
 }
-.locationsList{
-    text-align:left;overflow: auto;max-height: 80vh;padding-left: 0;margin-right: -15px;
-}
-.locationsList::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	border-radius: 10px;
-	background-color: #F5F5F5;
-}
-
-.locationsList::-webkit-scrollbar
-{
-	width: 12px;
-	background-color: #F5F5F5;
-}
-
-.locationsList::-webkit-scrollbar-thumb
-{
-	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #EE3A43;
-}
-.visit{
-    color:#EE3A43 !important;
-    background-color:white;
-    border:2px solid #EE3A43 !important;
-    -webkit-transition: border-bottom 0.2s, color 0.2s;
-    transition: border-bottom 0.2s, color 0.2s;
-    height:
-}
-.visit:hover{
-    color:white !important;
-    background-color:transparent !important;
-    border:2px solid white !important;
-}
-
-
-.locationForm{
-    height:40px;
-    border-radius: 5px;
-    margin:5px;
-    padding:5px;
-    width:220px;
-}
-.locationsBTN{
-    border:1px solid #EE3A43;
-    background-color: #EE3A43;
-    color:white;
-    -webkit-transition:.3s ease all;
-    transition:.3s ease all;
-    margin:5px;padding:5px;
-    height:40px;
-    border-radius:5px;
-    width:220px;
-}
-.locationsBTN:hover{
-    border:1px solid #EE3A43;
-    background-color:transparent;
-    color:#EE3A43;
-}
-.locationsBTN:focus{
-    border:1px solid #EE3A43;
-    background-color:transparent;
-    color:#EE3A43;
-}
-.locationsBTN:active{
-    border:1px solid #EE3A43;
-    background-color:transparent;
-    color:#EE3A43;
-}
-.loccol{
-
-        text-align: center;
+@media (min-width:1025px){
+    #storeUL{
+        background-color: transparent;
     }
-@media (min-width:768px){
-    .body {
-    display: table;
-   
-}
-
-.left-side {
-  
-    float: none;
-    display: table-cell;
- 
-}
-
-.right-side {
-   
-    float: none;
-    display: table-cell;
-
-}
-}
-@media (max-width:767px){
-    .loccon{
-        padding-left:0px;
-        padding-right:0px;
-    }
-    .locrow{
-        padding-left:0px !important;
-        padding-right:0px !important;
-    }
-    .loccol{
-        padding-left:0px;
-        padding-right:0px;
+    .showUL{
+        display:block !important;
     }
 }
-.topLine{
-    background-color:#EE3A43;
-    display:inline-block;
-    width: 100%;
-    color:white !important;
-    font-size:12px;
-    padding:5px;
-    padding-top:7px;
-    text-align: center;
-    font-family: 'Lato', 'Arial', sans-serif;
-    font-weight: bold;
-}
-.freeLi{
-    color:white !important;background-color:#EE3A43 !important;padding:5px !important;padding-left:10px !important;padding-right: 10px !important; border-radius: 15px;line-height: 19px;text-decoration:none !important;
-}
-
-#newWorkout{
-    background-image: url(img/newimg/kelly.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height:100vh;
-}
-#tryFree{
-    background-image: url(img/newimg/jillian.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right;
-    height:50vh;
-}
-
-#locations{
-    background-color: white;
-    color:black;
-}
-
-video#bgvid { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(img/kellyheader3.jpg) no-repeat;
-    background-size: cover; 
-}
-
-/* FRANCHISE PAGE */
 
 #head{
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('img/kellyheader3.jpg');
@@ -1983,3 +1897,11 @@ box-shadow: 5px -3px 15px 0px ;
     padding-left:5px;
     padding-right:5px;
 }
+
+
+
+/*
+tr:nth-child(even) {
+    background-color: rgb(242,242,242);
+}
+*/
