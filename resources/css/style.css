@@ -1260,10 +1260,20 @@ margin-top:30%;
 */
 /*    margin-top:50px;*/
 }
+@media (max-width:1024px){
+    #newWorkout{
+        text-align: center;
+    }
+    .hero-text-box2{
+        text-align:left;
+        right:10px;
+        margin-top:90%;
+    }
+}
 .hero-text-box3 {
     position:absolute;
     left:30px;
-    margin-top:100px;
+    margin-top:200px;
     display:inline-block;
  
 /*
@@ -1272,6 +1282,12 @@ margin-top:30%;
 */
 /*    margin-top:50px;*/
 }
+@media (max-width:400px){
+    .hero-text-box3{
+        margin-top:125px;
+    }
+}
+
 @media (max-height:450px) and (orientation:landscape){
     .hero-text-box{
         margin-top:60px;
@@ -2007,4 +2023,26 @@ box-shadow: 5px -3px 15px 0px ;
 #faq .col-sm-6{
     padding-left:5px;
     padding-right:5px;
+}
+
+.ham::before{
+    color:black !important;
+}
+#ham::before{
+    color:black !important;
+}
+.ham2::before{
+    color:black !important;
+}
+#ham2::before{
+    color:black !important;
+}
+
+.blacks{
+    color:black !important;
+}
+@media (max-width:1024px){
+    .blacks{
+        color: white !important;
+    }
 }
