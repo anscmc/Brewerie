@@ -1599,6 +1599,8 @@ margin-top:30%;
     background-repeat: no-repeat;
     background-position: center;
     height:100vh;
+    -webkit-box-shadow: 0px -3px 8px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -3px 8px 0px rgba(0,0,0,0.75);
 }
 #tryFree{
     background-image: url(img/newimg/jillian.jpg);
@@ -2045,4 +2047,42 @@ box-shadow: 5px -3px 15px 0px ;
     .blacks{
         color: white !important;
     }
+}
+
+.footText{
+    color:#EE3A43;
+    font-weight: 600;
+    font-size: 16px;
+    display:block;
+    margin-top:7px;
+}
+.dos:hover{
+    color:#EE3A43 !important;
+}
+@media (max-width:767px){
+    #mobFoot1{
+        display: none;
+    }
+    #mobFoot2{
+        display: none;
+    }
+}
+@media (min-width:768px){
+    #deskBot{
+        display:none;
+    }
+    #deskLogo{
+        display: none;
+    }
+    #redlinefoot{
+        display:none;
+    }
+}
+
+#homenav{
+    -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.75);
+}
+.HzV7m-b7CEbf .i4ewOd-pzNkMb-tJHJj{
+    background-color:#EE3A43;
 }
