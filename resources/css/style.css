@@ -1252,7 +1252,7 @@ header {
     max-width: 600px;
     right:100px;
     display:inline-block;
-margin-top:30%;
+margin-top:20%;
  
 /*
     -webkit-transform: translate(-50%, -50%);
@@ -1273,7 +1273,7 @@ margin-top:30%;
 .hero-text-box3 {
     position:absolute;
     left:30px;
-    margin-top:200px;
+    margin-top:175px;
     display:inline-block;
  
 /*
