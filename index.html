@@ -48,10 +48,16 @@
 <video playsinline autoplay muted loop preload="auto" id="bgvid">
     <source src="resources/css/img/backVid.mp4" type="video/mp4">
 </video>
-            <nav id="homenav" style="z-index: 10000;background-color:transparent!important;">
-                <div id="top" class="row">
-                    <a href="index.html"><img alt="level red boxing gym" src="resources/css/img/brand2.png" class="logo" style="margin-top:10px;margin-bottom:10px;"></a>
-                    <ul class="main-nav js--main-nav" style="margin-top:30px;">
+            <div id="topBar">
+                <a class="topLink" id="hideLink">.</a>
+                <a class="topLink" id="lefty">Franchising</a>
+                <a class="topLink">Corporate</a>
+                <a class="topLink">Careers</a>
+            </div>
+            <nav id="homenav" style="z-index: 10000;">
+                <div id="top" >
+                    <a href="index.html"><img alt="level red boxing gym" src="resources/css/img/brand3.png" class="logo"></a>
+                    <ul class="main-nav js--main-nav" style="margin-top:20px;">
                         <li><a id="workout" href="theworkout.html" class="blacks">The Workout</a></li>
 <!--                        <li><a href="motivators.html">Trainers</a></li>-->
                         <li class="dropdown"><a class="dropdown-toggle blacks" data-toggle="dropdown" href="#">About<span class="caret"></span></a>
@@ -68,8 +74,8 @@
                         <li><a href="franchise.html" class="blacks">Franchise</a></li>
                         <li><a href="buyclasses.html" class="blacks">Buy Classes</a></li>
                        
-                        <li><a href="https://clients.mindbodyonline.com/ASP/su1.asp?studioid=481565&tg=&vt=&lvl=&stype=&view=&trn=0&page=&catid=&prodid=&date=5%2f31%2f2017&classid=0&prodGroupId=&sSU=&optForwardingLink=&qParam=&justloggedin=&nLgIn=&pMode=0&loc=1" class="accountButton blacks" target="_blank">My Account</a></li>
-                        <li class="freeLi"><a href="#locations" style="color:white !important;font-weight: bold;text-decoration: none !important;padding:5px;" href="schedule.html">FREE CLASS</a></li>
+                        <li id="farright"><a href="https://clients.mindbodyonline.com/ASP/su1.asp?studioid=481565&tg=&vt=&lvl=&stype=&view=&trn=0&page=&catid=&prodid=&date=5%2f31%2f2017&classid=0&prodGroupId=&sSU=&optForwardingLink=&qParam=&justloggedin=&nLgIn=&pMode=0&loc=1" class="accountButton blacks" target="_blank">My Account</a></li>
+                        <li class="freeLi"><a href="#locations" style="color:white !important;font-weight: bold;text-decoration: none; padding:5px;" href="schedule.html">FREE CLASS</a></li>
                         
                     </ul>
                     <a id="ham" class="mobile-nav-icon js--nav-icon"><i id="ham2" class="ion-navicon-round"></i></a>
