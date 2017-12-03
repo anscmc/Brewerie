@@ -59,7 +59,7 @@ ul dropdown:
         margin-right:5px;
     }
 }
-@media (min-width:1024px){
+@media (min-width:1025px){
     #top{
     margin-left:20px;
     margin-right:50px;
@@ -68,7 +68,7 @@ ul dropdown:
         display: inline-block;
         width:100%;
         background-color: white !important;
-        height:70px;
+/*        height:60px;*/
     }
     #top a{
         color:black;
@@ -103,6 +103,7 @@ h1{
 .boxinginspired{
     margin-top:14px;
     margin-bottom:14px;
+    text-shadow: 1px 1px 1px black;
 }
 
 .workout-div{
@@ -505,7 +506,7 @@ h1{
     padding-bottom:10%
 }
 
-@media (max-width:1023px){
+@media (max-width:1025px){
     .topMot{
         width:270px;
     }
@@ -1375,7 +1376,7 @@ margin-top:20%;
     transition: border-bottom 0.2s;
 }
 
-@media (min-width:1024px){
+@media (min-width:1025px){
     .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #EE3A43 !important;
@@ -1631,25 +1632,29 @@ margin-top:20%;
 }
 .freeLi{
     color:white !important;
-    background-color:#EE3A43 !important;
+    background-color:#EE3A43;
     padding:5px !important;
     padding-left:10px !important;
     padding-right: 10px !important;
     border-radius: 15px;
     line-height: 19px;
     text-decoration:none !important;
+    
 }
-@media (min-width:1024px){
+@media (min-width:1025px){
     .freeLi{
     position: absolute;
-    height:70px;
+    height:59px;
     top:30px;
     right:0;
-    line-height: 55px;
+    line-height: 45px;
     border-bottom-left-radius: 10px;
         border-top-left-radius: 10px;
         border-bottom-right-radius: 0px;
         border-top-right-radius: 0px;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #EE3A43), to(#FFF5F5));
+background: linear-gradient(180deg, #EE3A43 60%, #FFF5F5 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EE3A43', endColorstr='#FFF5F5',GradientType=0 );
 }
     #farright{
         margin-right:100px;
@@ -2177,4 +2182,9 @@ box-shadow: 5px -3px 15px 0px ;
 }
 .HzV7m-b7CEbf .i4ewOd-pzNkMb-tJHJj{
     background-color:#EE3A43;
+}
+
+.shadowBTN{
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
