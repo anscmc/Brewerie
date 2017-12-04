@@ -1348,6 +1348,7 @@ margin-top:20%;
 .main-nav li {
     display: inline-block;
     margin-left: 30px;
+        
 }
 
 .main-nav li a:link,
@@ -1622,7 +1623,6 @@ margin-top:20%;
     padding:5px !important;
     padding-left:10px !important;
     padding-right: 10px !important;
-    border-radius: 15px;
     line-height: 19px;
     text-decoration:none !important;
     
@@ -1634,10 +1634,12 @@ margin-top:20%;
     top:30px;
     right:0;
     line-height: 45px;
+/*
     border-bottom-left-radius: 10px;
         border-top-left-radius: 10px;
         border-bottom-right-radius: 0px;
         border-top-right-radius: 0px;
+*/
 background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #EE3A43), to(#FFF5F5));
 background: linear-gradient(180deg, #EE3A43 60%, #FFF5F5 100%); 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EE3A43', endColorstr='#FFF5F5',GradientType=0 );
