@@ -1671,21 +1671,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EE3A43', end
     display:inline-block;
 }
 
-@media (max-height:767px){
-    .hero-text-box3{
-        margin-top:250px;
-    }
-}
-@media (max-height:668px){
-    .hero-text-box3{
-        margin-top:180px;
-    }
-}
-@media (max-height:568px){
-    .hero-text-box3{
-        margin-top:140px;
-    }
-}
+
 
 #locations{
     background-color: white;
