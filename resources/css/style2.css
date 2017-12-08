@@ -106,7 +106,7 @@ h1{
     position:fixed;
 }
 
-.strongat{
+.strongat2{
     margin-bottom:0px;
     padding:10px;
     font-size: 36px;
@@ -115,13 +115,13 @@ h1{
 
 
 @media (max-width:767px){
-    .strongat{
-        font-size:20px;
+    .strongat2{
+        font-size:28px;
     }
 }
 @media (max-width:374px){
-    .strongat{
-        font-size:18px;
+    .strongat2{
+        font-size:20px;
     }
 }
 .everylevel{
@@ -1690,6 +1690,21 @@ td{
     padding:10px;
     line-height:60px;
 }
+@media (max-width:602px){
+    .hookcirlce{
+        display:block;
+        width:245px;
+        margin: 0 auto;
+        text-align: left;
+        height:120px;
+    }
+    #hook10{
+        padding-top: 30px;
+    }
+    #hook11{
+        padding-top: 30px;
+    }
+}
 
 @media (max-width:412px){
     .wrap{
@@ -1897,7 +1912,16 @@ box-shadow: 5px -3px 15px 0px ;
     padding-left:5px;
     padding-right:5px;
 }
-
+.col123{
+    text-align: center;
+    vertical-align: middle;
+}
+.col123 p{
+    text-align: left;
+    display:block;
+    width:240px !important;
+    vertical-align: middle;
+}
 
 
 /*
