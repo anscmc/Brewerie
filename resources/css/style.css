@@ -2198,19 +2198,17 @@ box-shadow: 5px -3px 15px 0px ;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out !important;
     color:#EE3A43;
-/*
-    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
-    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.75);
-*/
 }
 .newBTN:hover{
     background-color: rgba(238, 58, 67, .7);
     color:black !important;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 .newBTN2{
     display: inline-block;
     width:200px;
-    background-color: rgba(238, 58, 67, 1);
+    background-color: transparent;
     text-align: center;
     line-height: 40px;
     cursor: pointer;
@@ -2219,14 +2217,12 @@ box-shadow: 5px -3px 15px 0px ;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out !important;
     color:black;
-/*
-    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
-    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.75);
-*/
 }
 .newBTN2:hover{
     background-color: black;
     color:rgba(238, 58, 67, 1);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 .newBTN3{
     display: inline-block;
@@ -2240,14 +2236,31 @@ box-shadow: 5px -3px 15px 0px ;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out !important;
     color:black;
-/*
-    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
-    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.75);
-*/
 }
 .newBTN3:hover{
     background-color: black;
     color:rgba(238, 58, 67, 1);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.newBTN4{
+    display: inline-block;
+    width:200px;
+    background-color: rgba(238, 58, 67, .7);
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    text-decoration: none !important;
+    margin-bottom:10px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out !important;
+    color:black;
+}
+.newBTN4:hover{
+    background-color: rgba(0,0,0,.5);
+    color:rgba(238, 58, 67, 1);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 .newBTNleft{
     display: inline;
@@ -2293,7 +2306,38 @@ box-shadow: 5px -3px 15px 0px ;
     -webkit-transition: all 0.2s ease-in-out !important;
     transition: all 0.2s ease-in-out !important;
 }
-
+.newBTNmiddle2{
+    display: inline;
+    color:rgba(238, 58, 67, 1);
+    font-weight:900;
+    font-size: 20px;
+    -webkit-transition: all 0.2s ease-in-out !important;
+    transition: all 0.2s ease-in-out !important;
+}
+.newBTNmiddle3{
+    display: inline;
+    color:white;
+    font-weight:900;
+    font-size: 20px;
+    -webkit-transition: all 0.2s ease-in-out !important;
+    transition: all 0.2s ease-in-out !important;
+}
+.newBTNmiddle3:hover{
+    display: inline;
+    color:rgba(238, 58, 67, 1);
+    font-weight:900;
+    font-size: 20px;
+    -webkit-transition: all 0.2s ease-in-out !important;
+    transition: all 0.2s ease-in-out !important;
+}
+.newBTNmiddle2:hover{
+    display: inline;
+    color:white;
+    font-weight:900;
+    font-size: 20px;
+    -webkit-transition: all 0.2s ease-in-out !important;
+    transition: all 0.2s ease-in-out !important;
+}
 .newBTNmiddle:hover{
     color:black !important;
 }
