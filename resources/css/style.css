@@ -1100,8 +1100,8 @@ input[type=submit] {
 }
 
 .btn-full{
-    background-color: #EE3A43 !important;
-    border:2px solid #EE3A43 !important;
+    background-color: rgba(0,0,0,.2) !important;
+    border-radius:0px !important;
     -webkit-transition: border-bottom 0.2s, color 0.2s;
     transition: border-bottom 0.2s, color 0.2s;
 }
@@ -1112,21 +1112,18 @@ input[type=submit] {
 
 .btn-ghost{
     color:white !important;
-    border:2px solid #EE3A43 !important;
+/*    border:2px solid #EE3A43 !important;*/
     -webkit-transition: border-bottom 0.2s, color 0.2s;
     transition: border-bottom 0.2s, color 0.2s;
 }
 
 .btn-ghost:hover{
-    
-    background-color: #EE3A43 !important;
+
 }
 
 .btn-full:link,
 .btn-full:visited,
 input[type=submit] {
-    background-color: #EE3A43;
-    border: 1px solid #EE3A43;
     color: #fff;
     margin-right: 15px;
 }
@@ -2161,7 +2158,7 @@ box-shadow: 5px -3px 15px 0px ;
     height: 100%;
     line-height: 30px;
     margin-right:15px;
-    font-style: italic
+    font-style: italic;
 }
 #homenav{
     display: inline-block;
@@ -2189,6 +2186,118 @@ box-shadow: 5px -3px 15px 0px ;
     margin-right:30px;
     margin-top:10px;
 }
+.newBTN{
+    display: inline-block;
+    width:200px;
+    background-color: rgba(0,0,0,.5);
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    text-decoration: none !important;
+    margin-bottom:10px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out !important;
+    color:#EE3A43;
+/*
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.75);
+*/
+}
+.newBTN:hover{
+    background-color: rgba(238, 58, 67, .7);
+    color:black !important;
+}
+.newBTN2{
+    display: inline-block;
+    width:200px;
+    background-color: rgba(238, 58, 67, 1);
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    text-decoration: none !important;
+    margin-bottom:10px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out !important;
+    color:black;
+/*
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.75);
+*/
+}
+.newBTN2:hover{
+    background-color: black;
+    color:rgba(238, 58, 67, 1);
+}
+.newBTN3{
+    display: inline-block;
+    width:250px;
+    background-color: rgba(238, 58, 67, 1);
+    text-align: center;
+    line-height: 38px;
+    cursor: pointer;
+    text-decoration: none !important;
+    margin-bottom:10px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out !important;
+    color:black;
+/*
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.75);
+*/
+}
+.newBTN3:hover{
+    background-color: black;
+    color:rgba(238, 58, 67, 1);
+}
+.newBTNleft{
+    display: inline;
+    color:inherit;
+    font-weight: 900;
+    float: left;
+    font-size: 50px;
+    margin-left:-3px;
+    margin-top:-3px;
+}
+.newBTNright{
+    display: inline;
+    color:inherit;
+    font-weight: 900;
+    float: right;
+    font-size: 50px;
+    margin-right:-4px;
+    margin-top:-3px;
+}
+.newBTNleft2{
+    display: inline;
+    color:inherit;
+    font-weight: 900;
+    float: left;
+    font-size: 50px;
+    margin-left:-3px;
+    margin-top:-1px;
+}
+.newBTNright2{
+    display: inline;
+    color:inherit;
+    font-weight: 900;
+    float: right;
+    font-size: 50px;
+    margin-right:-4px;
+    margin-top:-1px;
+}
+.newBTNmiddle{
+    display: inline;
+    color:white;
+    font-weight:900;
+    font-size: 20px;
+    -webkit-transition: all 0.2s ease-in-out !important;
+    transition: all 0.2s ease-in-out !important;
+}
+
+.newBTNmiddle:hover{
+    color:black !important;
+}
+
 /*
 .ion-navicon-round{
     margin-top:15px;
@@ -2197,6 +2306,4 @@ box-shadow: 5px -3px 15px 0px ;
     margin-top:15px;
 }
 */
-.locationFree{
-    margin-top:25px;
-}
+
