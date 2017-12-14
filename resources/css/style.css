@@ -2297,6 +2297,12 @@ box-shadow: 5px -3px 15px 0px ;
 .newBTNmiddle:hover{
     color:black !important;
 }
+i:hover{
+    color:rgba(238, 58, 67, 1) !important;
+}
+.phone:hover{
+    color:rgba(238, 58, 67, 1) !important;
+}
 
 /*
 .ion-navicon-round{
