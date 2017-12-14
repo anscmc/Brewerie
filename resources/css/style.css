@@ -2256,7 +2256,7 @@ box-shadow: 5px -3px 15px 0px ;
     float: left;
     font-size: 50px;
     margin-left:-3px;
-    margin-top:-3px;
+    margin-top:-2px;
 }
 .newBTNright{
     display: inline;
@@ -2265,7 +2265,7 @@ box-shadow: 5px -3px 15px 0px ;
     float: right;
     font-size: 50px;
     margin-right:-4px;
-    margin-top:-3px;
+    margin-top:-2px;
 }
 .newBTNleft2{
     display: inline;
