@@ -50,7 +50,8 @@ ul dropdown:
     width: 100%;
 }
 #ham{
-    margin-top:5px;
+    margin-top:10px;
+    margin-right:25px;
 }
 #hideLink{
     margin-right:15px;
@@ -105,16 +106,17 @@ h1{
 .strongat{
     margin:0;
     padding:0;
-    text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+    text-shadow: 3px 0px 3px rgba(0, 0, 0, 1);
 }
 .inspired{
     color:white !important;
-    font-weight: 300;
+    font-weight: 700;
     font-size: 20px;
     padding:0;
     display: block;
     margin-bottom:20px;
     margin-top:20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
 }
 @media (max-width:768px){
     .inspired{
@@ -131,15 +133,37 @@ h1{
     font-weight: bold;
 }
 .everylevel2{
-    font-weight:500;
+    font-weight:900;
     font-size: 120px;
     color:white !important;
-    font-family: lrb !important;
+    font-family: 'Lato', sans-serif;
     margin:0;
     padding:0;
-    text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+    padding-left: 10px;
 }
-
+.hero-text-box {
+    position: absolute;
+    text-align: left;
+    top: 20%;
+    left: 10%;
+/*
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+*/
+    display: inline-block;
+    width:800px;
+    max-width:100%;
+    border-left:2px solid white;
+}
+@media(max-width:767px){
+    .everylevel2{
+        font-size:50px;
+    }
+    .hero-text-box{
+        top:20%;
+        left:0px;
+    }
+}
 .boxinginspired{
     margin-top:14px;
     margin-bottom:14px;
@@ -1132,25 +1156,37 @@ input[type=submit] {
 }
 
 .btn-full{
-    background-color: rgba(0,0,0,.2) !important;
+    background-color: #BF202F;
+    border:1px solid #BF202F !important;
     border-radius:0px !important;
+    text-decoration: none !important;
+    font-family: 'Lato', sans-serif !important;
+    font-size:20px !important;
+    font-weight: 700 !important;
+/*
     -webkit-transition: border-bottom 0.2s, color 0.2s;
     transition: border-bottom 0.2s, color 0.2s;
+*/
 }
 
 .btn-full:hover{
-    
+    background-color:rgba(0,0,0,.25);
 }
 
 .btn-ghost{
     color:white !important;
+    border:1px solid #BF202F !important;
+    background-color:rgba(0,0,0,.25);
+    font-family: 'Lato', sans-serif !important;
+    font-size:20px !important;
+    font-weight: 700 !important;
 /*    border:2px solid #BF202F !important;*/
     -webkit-transition: border-bottom 0.2s, color 0.2s;
     transition: border-bottom 0.2s, color 0.2s;
 }
 
 .btn-ghost:hover{
-
+background-color:#BF202F !important;
 }
 
 .btn-full:link,
@@ -1178,7 +1214,10 @@ input[type=submit]:active {
     background-color: transparent;
     color:#BF202F;
 }
-
+.buyBtn{
+    color:white;
+    background-color:#BF202F;
+}
 .buyBtn:hover{
     color:white !important;
 }
@@ -1311,15 +1350,8 @@ header {
 }
 }
 
-.hero-text-box {
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    display: inline-block;
-}
+
+
 .hero-text-box2 {
     position:absolute;
     max-width: 600px;
@@ -1354,10 +1386,30 @@ margin-top:20%;
 */
 
 .logo {
-    width:150px;
+    height:60px;
+    width:auto;
     float: left;
-    margin:5px;
+    margin:0px;
     margin-left:0;
+    left:0;
+}
+.logo2 {
+    height:60px;
+    width:auto;
+    float: left;
+    margin:0px;
+    margin-left:0;
+    left:0;
+    display: none;
+    margin:5px;
+}
+@media(max-width:767px){
+    .logo{
+        display: none;
+    }
+    .logo2{
+        display: inherit;
+    }
 }
 /*
 .logo2 {
@@ -1680,15 +1732,19 @@ margin-top:20%;
     top:30px;
     right:0px;
     display: inline-block;
-    width:120px;
-    height:160px;
+    width:100px;
+    height:80px;
     background-color:rgba(191, 32, 47, 1);
     text-align: center;
     cursor: pointer;
     border-bottom-left-radius: 5px;
+    padding-bottom:5px;
+    -webkit-box-shadow: -1px 1px 2px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 2px 0px rgba(0,0,0,0.75);
 }
 .bigFREE span{
-    font-family: lrb;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
 }
 .freeText{
     color:white;
@@ -1710,7 +1766,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BF202F', end
 
 }
     .farright{
-        margin-right:170px;
+        margin-right:10px;
     }
 }
 #newWorkout{
@@ -1756,6 +1812,19 @@ video#bgvid {
     transform: translateX(-50%) translateY(-50%);
     background: url(img/kellyheader3.jpg) no-repeat;
     background-size: cover; 
+}
+.topline{
+    height:100%;margin:5px;
+    border-right:1px solid black;
+    display: inline;
+}
+.strongText{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size:15x;
+    display: inline;
+    cursor:pointer;
+    text-decoration: none;
 }
 
 /* FRANCHISE PAGE */
@@ -2287,7 +2356,8 @@ box-shadow: 5px -3px 15px 0px ;
     transition: all 0.3s ease-in-out !important;
     color:white;
     height:50px;
-    font-family: lrb;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
     text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
     margin-bottom: 0px;
 }
@@ -2308,6 +2378,8 @@ box-shadow: 5px -3px 15px 0px ;
     color:white;
     font-family: lrb;
     text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
 }
 .newBTN2:hover{
     color:white;
@@ -2331,17 +2403,17 @@ box-shadow: 5px -3px 15px 0px ;
     color:white;
 }
 .newBTNleft{
-    font-family: 'Oswald', sans-serif;
+    font-family: lrb;
     display: inline-block;
     color:inherit;
-    font-weight: 700;
+    font-weight: inherit;
     font-size: 50px;
     -webkit-transition: all 0.3s ease-in-out !important;
     transition: all 0.3s ease-in-out !important;
     text-shadow: none !important;
 }
 .newBTNleft3{
-    font-family: 'Oswald', sans-serif;
+    font-family: lrb;
     display: inline-block;
     color:black;
     font-weight: 700;
@@ -2354,7 +2426,7 @@ box-shadow: 5px -3px 15px 0px ;
     color:white;
 }
 .newBTNright{
-    font-family: 'Oswald', sans-serif;
+    font-family: lrb;
     display: inline-block;
     color:inherit;
     font-weight: 700;
@@ -2364,7 +2436,7 @@ box-shadow: 5px -3px 15px 0px ;
     text-shadow: none !important;
 }
 .newBTNright3{
-    font-family: 'Oswald', sans-serif;
+    font-family: lrb;
     display: inline-block;
     color:black;
     font-weight: 700;
