@@ -2274,14 +2274,42 @@ box-shadow: 5px -3px 15px 0px ;
 .newBTN2:hover{
     color:white;
 }
+.newBTN3{
+    display: inline-block;
+    width:280px;
+    background-color: rgba(0,0,0,0);
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none !important;
+    margin-bottom:10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out !important;
+    color:#BF202F;
+    font-family: lrb;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
+    margin-left:-10px;
+}
+.newBTN3:hover{
+    color:white;
+}
 .newBTNleft{
     font-family: 'Oswald', sans-serif;
     display: inline-block;
     color:inherit;
     font-weight: 700;
     font-size: 50px;
-    -webkit-transition: all 0.5s ease-in-out !important;
-    transition: all 0.5s ease-in-out !important;
+    -webkit-transition: all 0.3s ease-in-out !important;
+    transition: all 0.3s ease-in-out !important;
+    text-shadow: none !important;
+}
+.newBTNleft3{
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    color:black;
+    font-weight: 700;
+    font-size: 50px;
+    -webkit-transition: all 0.3s ease-in-out !important;
+    transition: all 0.3s ease-in-out !important;
     text-shadow: none !important;
 }
 .newBTN:hover .newBTNleft{
@@ -2293,29 +2321,45 @@ box-shadow: 5px -3px 15px 0px ;
     color:inherit;
     font-weight: 700;
     font-size: 50px;
-    -webkit-transition: all .5s ease-in-out !important;
-    transition: all .5s ease-in-out !important;
+    -webkit-transition: all .3s ease-in-out !important;
+    transition: all .3s ease-in-out !important;
+    text-shadow: none !important;
+}
+.newBTNright3{
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    color:black;
+    font-weight: 700;
+    font-size: 50px;
+    -webkit-transition: all .3s ease-in-out !important;
+    transition: all .3s ease-in-out !important;
     text-shadow: none !important;
 }
 .newBTN:hover .newBTNright{
     color:white;
+}
+hr{
+    border-top-color: #BF202F;
+    margin-right:10px;
 }
 .newBTNmiddle{
     display: inline-block;
     color:white;
     font-weight:900;
     font-size: 35px;
-    -webkit-transition: all .4s ease-in-out !important;
-    transition: all .4s ease-in-out !important;
+    -webkit-transition: all .5s ease-in-out !important;
+    transition: all .5s ease-in-out !important;
     text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
     background-color: rgba(0,0,0,.1);
-    line-height: 43px;
+    line-height: 32px;
     vertical-align: middle;
     margin-bottom: 22px;
     margin-left:-7px;
     margin-right:-7px;
-    padding-left:3px;
+    padding-left:5px;
     padding-right: 2px;
+    padding-top:3px;
+    margin-top:6px;
 }
 .newBTNmiddle2{
     display: inline-block;
@@ -2326,21 +2370,52 @@ box-shadow: 5px -3px 15px 0px ;
     transition: all 0.3s ease-in-out !important;
     text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
     background-color: rgba(191, 32, 47, 1);
-    line-height: 43px;
+    line-height: 32px;
     vertical-align: middle;
     margin-bottom: 22px;
     margin-left:-7px;
     margin-right:-7px;
     padding-left:5px;
     padding-right: 2px;
+    padding-top:4px;
+    margin-top:5px;
+}
+.newBTNmiddle3{
+    display: inline-block;
+    color:#BF202F;
+    font-weight:900;
+    font-size: 35px;
+    -webkit-transition: all 0.5s ease-in-out !important;
+    transition: all 0.5s ease-in-out !important;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
+    background-color: transparent;
+    line-height: 32px;
+    vertical-align: middle;
+    margin-bottom: 22px;
+    margin-left:-7px;
+    margin-right:-7px;
+    padding-left:5px;
+    padding-right: 2px;
+    padding-top:3px;
+    margin-top:5px;
 }
 .newBTN2:hover .newBTNmiddle2{
     color:rgba(191, 32, 47, 1) !important;
     background-color:transparent;
 }
+.newBTN3:hover .newBTNmiddle3{
+    color:white !important;
+    -webkit-box-shadow: 160px 0px 0 0 rgba(191, 32, 47, 1) inset , -160px 0px 0 0 rgba(191, 32, 47, 1) inset;
+}
 .newBTN:hover .newBTNmiddle{
 /*    background-color: rgba(191, 32, 47, 1);*/
     -webkit-box-shadow: 160px 0px 0 0 rgba(191, 32, 47, 1) inset , -160px 0px 0 0 rgba(191, 32, 47, 1) inset;
+}
+.newBTN:hover .newBTNleft{
+    color:black !important;
+}
+.newBTN:hover .newBTNright{
+    color:black !important;
 }
 
 i:hover{
