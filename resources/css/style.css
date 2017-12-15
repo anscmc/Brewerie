@@ -1359,6 +1359,7 @@ margin-top:20%;
     margin:5px;
     margin-left:0;
 }
+/*
 .logo2 {
     width:auto;
     height:60px;
@@ -1375,6 +1376,7 @@ margin-top:20%;
         display:inherit;
     }
 }
+*/
 
 .logo-black { 
     display: none;
@@ -2462,6 +2464,13 @@ i:hover{
 }
 .phone:hover{
     color:rgba(191, 32, 47, 1) !important;
+}
+.locH2{
+    margin-bottom:0;
+    margin-top:0;
+    font-size: 20px;
+    text-align: left;
+    height: 40px;
 }
 
 /*
