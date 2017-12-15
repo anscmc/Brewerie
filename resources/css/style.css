@@ -2435,7 +2435,9 @@ hr{
 .newBTN:hover .newBTNright{
     color:black !important;
 }
-
+i{
+    cursor: pointer;
+}
 i:hover{
     color:rgba(191, 32, 47, 1) !important;
 }
