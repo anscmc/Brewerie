@@ -116,7 +116,7 @@ h1{
     display: block;
     margin-bottom:20px;
     margin-top:20px;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 @media (max-width:768px){
     .inspired{
@@ -140,20 +140,32 @@ h1{
     margin:0;
     padding:0;
     padding-left: 10px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 .hero-text-box {
-    position: absolute;
+    margin-top:25px !important;
     text-align: left;
     top: 20%;
     left: 10%;
+    margin-top:50px;
+    vertical-align: top;
+    
+    
 /*
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 */
     display: inline-block;
-    width:800px;
-    max-width:100%;
-    border-left:2px solid white;
+    width:100%;
+    max-width:800px;
+/*    border-right:2px solid white;*/
+}
+.freehero{
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+}
+.headForm{
+    display:inline-block;
 }
 @media(max-width:767px){
     .everylevel2{
@@ -167,7 +179,7 @@ h1{
 .boxinginspired{
     margin-top:14px;
     margin-bottom:14px;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .workout-div{
@@ -1225,8 +1237,12 @@ input[type=submit]:active {
 .btn-full:hover,
 .btn-full:active {
     border: 1px solid #cf6d17;
-    background-color:transparent !important;
+    background-color:rgba(0,0,0,.25);
+    color:#BF202F !important;
 
+}
+.viewBTN:hover{
+    background-color: white;
 }
 
 .btn-ghost:hover,
@@ -1247,8 +1263,9 @@ header {
     background-size:cover;
     background-position:center;
 */
-    width:100vw;
-    height: 90vh;
+    width:100%;
+    padding-bottom:25px;
+    
 /*    background-attachment:local;*/
 }
 .erieHeader{
@@ -1364,6 +1381,7 @@ margin-top:20%;
     transform: translate(-50%, -50%);
 */
 /*    margin-top:50px;*/
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 @media (max-width:1024px){
     #newWorkout{
@@ -2286,7 +2304,7 @@ box-shadow: 5px -3px 15px 0px ;
 }
 #topBar{
 /*    background-color:#636363;*/
-    background-color:#BF202F;
+    background-color:#595A5C;
     height:30px;
     width:100%;
 }
@@ -2543,6 +2561,23 @@ i:hover{
     font-size: 20px;
     text-align: left;
     height: 40px;
+}
+.form-group{
+    margin:10px;
+    color:white;
+}
+input{
+    max-width: 300px;
+    margin:0 auto;
+    color: #BF202F;
+    font-weight: bold;
+}
+.freeBTN{
+    color:white;
+}
+.freeBTN:hover{
+    background-color: white !important;
+    color: #BF202F !important;
 }
 
 /*
