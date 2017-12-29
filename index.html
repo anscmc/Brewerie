@@ -45,9 +45,9 @@
     
     </head>
     <body style="background-color: transparent;">
-        <header class="landingHeader" style="background-color: rgba(0,0,0,.5);text-align: center">
+        <header class="landingHeader" style="background-color: rgba(0,0,0,.33);text-align: center">
 <video playsinline autoplay muted loop preload="auto" id="bgvid">
-    <source src="resources/css/img/backVid.mp4" type="video/mp4">
+    <source src="resources/css/img/backvidDesk.mp4" type="video/mp4">
 </video>
             
 <!--
@@ -60,9 +60,13 @@
             
             <div id="topBar">
                 <a class="topLink" id="hideLink">.</a>
+                <a href="#" class="topLink"><i style="padding-right:5px;font-size:30px;padding-top:2px;" class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#" class="topLink"><i style="padding-right:5px;font-size:30px;padding-top:2px;" class="fa fa-facebook-square" aria-hidden="true"></i></a>
                 <a href="franchise.html" class="topLink" id="lefty">Franchising</a>
                 <a href="#" class="topLink">Corporate</a>
                 <a href="#" class="topLink">Careers</a>
+                
+                
             </div>
             <nav id="homenav" style="z-index: 10000;">
                 
@@ -88,7 +92,7 @@
                         <li><a href="buyclasses.html" class="blacks">Buy Classes</a></li>
                        
                         <li class="farright"><a href="https://clients.mindbodyonline.com/ASP/su1.asp?studioid=481565&tg=&vt=&lvl=&stype=&view=&trn=0&page=&catid=&prodid=&date=5%2f31%2f2017&classid=0&prodGroupId=&sSU=&optForwardingLink=&qParam=&justloggedin=&nLgIn=&pMode=0&loc=1" class="accountButton blacks" target="_blank">My Account</a></li>
-                        <li class="freeLi"><a href="#locations" style="color:white !important;font-weight: bold;text-decoration: none; padding:5px;" href="schedule.html">FREE CLASS</a></li>   
+                        <li class="freeLi"><a href="#locations" style="color:white !important;font-weight: bold;text-decoration: none; padding:5px;" href="schedule.html">FREE CLASS</a></li>
                     </ul>
                     <a id="ham" class="mobile-nav-icon js--nav-icon"><i id="ham2" class="ion-navicon-round"></i></a>
                 </div>
@@ -97,36 +101,44 @@
             <div class="hero-text-box" style="padding-right:30px !important;max-width:800px;">
 
                <h1 class="everylevel2" >LEVEL RED MOTIVATION</h1>
-                   <h1 class="inspired" style="margin-left:14px;">STOP GOING TO THE GYM, START HAVING AN EXPERIENCE<img src="resources/css/img/rDark2.png" style="height:12px;margin-left:5px;"></h1>
+                   <h1 class="inspired" style="margin-left:14px;">STOP GOING TO THE GYM, START HAVING AN EXPERIENCE</h1>
+<!--
                 <a class="btn btn-full js--scroll-to-plans buyBtn" href="buyclasses.html" style="margin-bottom:10px;width:200px;font-size:16px;border-radius: 0;margin-left: 14px;box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);">Locations</a>
                 <br>
                 <a target="_blank" href="freeclass.html" class="btn btn-ghost js--scroll-to-start"  style="width:200px;font-size:16px;border-radius: 0;margin-left: 14px;margin-bottom:20px;box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);">The Levels</a>
+-->
             </div>
-            <div class="hero-text-box freehero" style="text-align: center;border-right:none !important;width: auto;margin:5px;background-color:#BF202F;padding:10px;">
+            <div class="hero-text-box freehero" style="text-align: center;border-right:none !important;width: auto;background-color:#BF202F;padding:10px;">
 
 
                <h1 class="everylevel" style="color:white !important;font-size:72px;text-shadow: 1px 1px 1px black;text-align: center;width:auto;display: inline-block;">FREE Workout</h1>
 
                    <form data-forge-name="Quote" style="text-align: center">
-                      <div class="form-group">
+                      <div class="form-group" style="margin:0;padding:0;width: 40%;display: inline-block;">
                         <label for="name">Name</label>
                         <input type="text" style="color: #BF202F;" data-forge-name="Name" class="form-control" id="name" required>
                       </div>
-                      <div class="form-group">
+                      <div class="form-group"  style="margin:0;padding:0;width: 40%;display: inline-block;">
                         <label for="title">Location</label>
-                        <input type="text" style="color: #BF202F;" data-forge-name="Location" class="form-control" id="title">
+<!--                        <input type="text" style="color: #BF202F;" data-forge-name="Location" class="form-control" id="title">-->
+                            <select style="color: #BF202F;" data-forge-name="Location" class="form-control" id="title">
+    <option>Erie, PA</option>
+    <option>Pittsburgh, PA</option>
+    <option>Buffalo, NY</option>
+  </select>
                       </div>
-                        <div class="form-group">
+                       <br>
+                        <div class="form-group" style="margin:0;padding:0;width: 40%;display: inline-block;">
                             <label for="ph">Phone</label>
                             <input type="text" data-forge-name="Phone" class="form-control" id="ph" style="color: #BF202F;" required>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group" style="margin:0;padding:0;width: 40%;display: inline-block;">
                             <label for="em">Email</label>
                             <input type="email" data-forge-name="Email" class="form-control" id="em" style="color: #BF202F;" required>
                         </div>
 
-
-                        <div style="text-align:center" style="margin-left:10px;">
+<br>
+                        <div style="text-align:center">
                             <br>
                             <input type="submit" value="Free Workout" class="btn btn-full js--scroll-to-plans buyBtn freeBTN" href="buyclasses.html" style="margin-bottom:10px;width:200px;font-size:16px;border-radius: 0;margin-left: 14px;box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);">
 
@@ -136,15 +148,29 @@
             </div>
             
         </header>
+
+<div id="workoutdiv">
+    <div style="position: absolute;width: 100%;height:300px;background-color: white;z-index: 0;box-shadow: inset 0px 0px 10px 3px #BF202F;"></div>
+    <img src="resources/css/img/newimg/workoutkelly.png" style="height: 800px;position: absolute;right: 0;">
+    <div class="hero-text-box2" style="padding-left:10px;padding-right:0px !important;">
+               <h1 class="everylevel" style="color:white !important;font-size:72px;text-shadow: 1px 1px 1px black;" >The Workout</h1>
+                <p class="boxinginspired" style="color:white !important;font-size:24px;" >Boxing inspired group fitness infused with kettle bell strength movements and core conditioning. Every class is a full body workout. Enjoy high calorie burn and body changing movements.</p>
+
+                          <a class="btn btn-full js--scroll-to-plans buyBtn viewBTN" href="http://www.levelredboxing.com" style="margin-bottom:10px;width:200px;font-size:16px;border-radius: 0;margin-left:0;box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);padding:5px;">The Workout <img src="resources/css/img/whiteR.svg" style="height:20px;vertical-align:middle;margin-bottom:2px;"></a>
+            </div>
+</div>
+<!--
         <div id="newWorkout">
             <div style="top:0;left:0;width:100%;border-top:3px solid white;"></div>
             <div class="hero-text-box2" style="padding-left:10px;padding-right:0px !important;">
                <h1 class="everylevel" style="color:white !important;font-size:72px;text-shadow: 1px 1px 1px black;" >The Workout</h1>
                 <p class="boxinginspired" style="color:white !important;font-size:24px;" >Boxing inspired group fitness infused with kettle bell strength movements and core conditioning. Every class is a full body workout. Enjoy high calorie burn and body changing movements.</p>
 
-                          <a class="btn btn-full js--scroll-to-plans buyBtn viewBTN" href="http://www.levelredboxing.com" style="margin-bottom:10px;width:200px;font-size:16px;border-radius: 0;margin-left:0;box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);">View Studio <img src="resources/css/img/rDark.png" style="height:20px;vertical-align:middle;margin-bottom:2px;"></a>
+                          <a class="btn btn-full js--scroll-to-plans buyBtn viewBTN" href="http://www.levelredboxing.com" style="margin-bottom:10px;width:200px;font-size:16px;border-radius: 0;margin-left:0;box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);padding:5px;">The Workout <img src="resources/css/img/whiteR.svg" style="height:20px;vertical-align:middle;margin-bottom:2px;"></a>
             </div>
+            <img src="resources/css/img/newimg/workoutkelly.png" style="position: absolute;right:0;bottom:0;height:100%;">
         </div>
+-->
         <div id="locations" class="locations" style="box-shadow: inset 0px 0px 10px 3px #BF202F;">        
           <div class="container" style="padding:0;">
               <div class="row" style="max-width:1200px;padding:0;">
@@ -167,7 +193,7 @@
                 <a target="_blank" class="socialButtons"><i style="padding-left:15px;padding-top:10px;font-size:30px;color:black;" class="fa fa-facebook-square" aria-hidden="true"></i></a>
                  <br>
                           <br>
-                          <a class="btn btn-full js--scroll-to-plans buyBtn viewBTN" href="http://www.levelredboxing.com" style="margin-bottom:10px;width:200px;font-size:16px;border-radius: 0;margin-left: 14px;margin-left:0;">View Studio <img src="resources/css/img/rDark.png" style="height:20px;vertical-align:middle;margin-bottom:2px;"></a>
+                          <a class="btn btn-full js--scroll-to-plans buyBtn viewBTN" href="http://www.levelredboxing.com" style="margin-bottom:10px;width:200px;font-size:16px;border-radius: 0px;margin-left: 14px;margin-left:0;padding:5px;">View Studio <img src="resources/css/img/whiteR.svg" style="height:20px;vertical-align:middle;margin-bottom:2px;"></a>
                           <br>
                  <hr>
                        <span style="font-weight:900;">Pittsburgh, PA</span>
@@ -182,7 +208,7 @@
                 <a target="_blank" class="socialButtons"><i style="padding-left:15px;padding-top:10px;font-size:30px;color:black;" class="fa fa-facebook-square" aria-hidden="true"></i></a>
                 <br>
                           <br>
-                          <a class="btn btn-full js--scroll-to-plans buyBtn viewBTN" href="pittsburgh.html" style="margin-bottom:10px;width:200px;font-size:16px;border-radius: 0;margin-left: 14px;margin-left:0;">View Studio <img src="resources/css/img/rDark.png" style="height:20px;vertical-align:middle;margin-bottom:2px;"></a>
+                          <a class="btn btn-full js--scroll-to-plans buyBtn viewBTN" href="pittsburgh.html" style="margin-bottom:10px;width:200px;font-size:16px;border-radius: 0;margin-left: 14px;margin-left:0;padding:5px;">View Studio <img src="resources/css/img/whiteR.svg" style="height:20px;vertical-align:middle;margin-bottom:2px;"></a>
                           <br>
                       <hr>
                        <span style="font-weight:900;">Buffalo, NY</span>
@@ -197,7 +223,7 @@
                 <a target="_blank" class="socialButtons"><i style="padding-left:15px;padding-top:10px;font-size:30px;color:black;" class="fa fa-facebook-square" aria-hidden="true"></i></a>
                  <br>
                           <br>
-                          <a class="btn btn-full js--scroll-to-plans buyBtn viewBTN" href="buffalo.html" style="margin-bottom:10px;width:200px;font-size:16px;border-radius: 0;margin-left: 14px;margin-left:0;">View Studio <img src="resources/css/img/rDark.png" style="height:20px;vertical-align:middle;margin-bottom:2px;"></a>
+                          <a class="btn btn-full js--scroll-to-plans buyBtn viewBTN" href="buffalo.html" style="margin-bottom:10px;width:200px;font-size:16px;border-radius: 0;margin-left: 14px;margin-left:0;padding:5px;">View Studio <img src="resources/css/img/whiteR.svg" style="height:20px;vertical-align:middle;margin-bottom:2px;"></a>
                           <br>
                       </div>
                   </div>
@@ -213,6 +239,13 @@
          
             
         </div>
+        <div>
+        
+        </div>
+        <div style="display: inline-block;width:100%;background-color: white;">
+            <!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/8d1ca458e2085678ac222b560743c487.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;margin: 0;padding: 0;"></iframe>
+
+        </div>
 <!--
         <div id="tryFree">
                     <div class="hero-text-box3" style="padding-left:10px;padding-right:0px !important;">
@@ -222,7 +255,7 @@
             </div>
         </div>
 -->
-    <div style="font-size:12px;font-weight:400 !important;text-align:center;background-color: white;border-top:5px solid white;">
+    <div style="font-size:12px;font-weight:400 !important;text-align:center;background-color: white;border-top: 5px solid #BF202F;">
        <div id="redlinefoot" style="border-top: 5px solid #BF202F"></div>
         <br>
         <div class="container">
@@ -253,7 +286,7 @@
             </div>
         </div>
         <br>
-        <div id="mobFoot1" style="border-top: 5px solid #BF202F"></div>
+<!--        <div id="mobFoot1" style="border-top: 5px solid #BF202F"></div>-->
         <br>
         <div id="mobFoot2" class="container">
             <div class="row">
