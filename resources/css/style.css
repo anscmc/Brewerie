@@ -148,7 +148,7 @@ h1{
 /*    top: 20%;*/
 /*    left: 10%;*/
     vertical-align: top;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     
     
 /*
@@ -1389,14 +1389,7 @@ header {
     max-width: 800px;
     right:100px;
     display:inline-block;
-margin-top:450px;
-    margin-left:400px;;
- 
-/*
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-*/
-/*    margin-top:50px;*/
+    margin-top:175px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 @media (max-width:1024px){
@@ -1817,7 +1810,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BF202F', end
 }
 #workoutdiv{
     background-image: url(img/redback.jpg);
-    height:800px;
+    height:500px;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -2343,7 +2336,7 @@ box-shadow: 5px -3px 15px 0px ;
     height: 100%;
     line-height: 35px;
     margin-right:15px;
-    font-style: italic;
+    font-weight:100;
 }
 #homenav{
     display: inline-block;
@@ -2615,4 +2608,36 @@ input{
     margin-top:15px;
 }
 */
+
+.hookcirlce{
+    font-weight:500;
+    display: inline-block;
+    padding:10px;
+    line-height:60px;
+}
+@media (max-width:602px){
+    .hookcirlce{
+        display:block;
+        width:245px;
+        margin: 0 auto;
+        text-align: left;
+        height:120px;
+    }
+    #hook10{
+        padding-top: 30px;
+    }
+    #hook11{
+        padding-top: 30px;
+    }
+}
+
+@media (max-width:412px){
+    .wrap{
+        text-align: left;
+    }
+    .hookcirlce{
+        display:block;
+        
+    }
+}
 
