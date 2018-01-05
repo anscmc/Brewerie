@@ -2303,10 +2303,10 @@ td{
     }
     #workoutIcons{
         display: inline;
-        font-size: 10px !important;
+        font-size: 9px !important;
     }
     .workouttext{
-        font-size:8px;
+        font-size:7px;
     }
     #kellyimg1{
         height:calc(100% - 65px);
@@ -2323,7 +2323,7 @@ td{
 /*margin-right:-5px;*/
 @media (max-width:450px){
     .workouttext{
-        font-size:7px;
+        font-size:6px;
     }
     #workoutdivP{
         max-width: 180px;
@@ -2341,6 +2341,12 @@ td{
         max-width: 160px;
         margin-bottom: 20px;
     }
+}
+@media (max-width:414px){
+    .workouttext{
+        font-size:5.5px;
+    }
+
 }
 @media (max-width:400px){
     .workouttext{
@@ -2371,13 +2377,16 @@ td{
     .everylevel2{
         font-size: 45px;
     }
-    
+    .workouttext{
+        font-size:4px;
+        margin-right:-5px;
+    }
 
 }
 
-@media (max-width:344px){
+@media (max-width:331px){
     .workouttext{
-        font-size:4px;
+        font-size:3px;
 
     }
 }
