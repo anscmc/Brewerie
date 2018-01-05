@@ -2193,9 +2193,6 @@ td{
 */
 }
 @media (max-width:1850px){
-    #breaker{
-        display: block;
-    }
     #icons{
         text-align: left;
     }
@@ -2336,6 +2333,7 @@ td{
 @media (max-width:425px){
     .workouttext{
         font-size:6px;
+        margin-right:-7px;
     }
     #workoutdivP{
         max-width: 160px;
@@ -2351,7 +2349,7 @@ td{
 @media (max-width:400px){
     .workouttext{
         font-size:5px;
-        margin-right:-5px;
+
     }
     #workoutdivP{
         max-width: 140px;
@@ -2379,7 +2377,7 @@ td{
     }
     .workouttext{
         font-size:4px;
-        margin-right:-5px;
+ 
     }
 
 }
