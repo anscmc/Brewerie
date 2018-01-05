@@ -168,17 +168,10 @@ h1{
 .headForm{
     display:inline-block;
 }
-@media (max-width:1415px){
-    .freehero{
-        width:100% !important;
-        border-radius: 0px;
-        margin-left:0px !important;
-        margin-right:0px !important;
-    }
-    header{
-        padding-bottom: 0px !important;;
-    }
+#breaker{
+    display: none;
 }
+
 @media(max-width:767px){
     .everylevel2{
         font-size:50px;
@@ -1814,6 +1807,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BF202F', end
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    z-index: 1;
 }
 #tryFree{
     background-image: url(img/newimg/jillian.jpg);
@@ -1828,17 +1822,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BF202F', end
     margin-top:175px;
     display:inline-block;
 }
-
-
-
-#locations{
-    background-color: white;
-    color:black;
-}
-
+.workoutIcons{
+        font-weight:500;
+        display: inline-block !important;
+        width:auto !important;
+        padding:10px;
+        line-height:30px;
+    }
 video#bgvid { 
     position: fixed;
-    top: 50%;
+    top: 500px;
     left: 50%;
     min-width: 100%;
     min-height: 100%;
@@ -1850,6 +1843,66 @@ video#bgvid {
     background: url(img/kellyheader3.jpg) no-repeat;
     background-size: cover; 
 }
+
+@media (max-width:1599px){
+    .freehero{
+        width:100% !important;
+        border-radius: 0px;
+        margin-left:0px !important;
+        margin-right:0px !important;
+        margin-bottom:0 !important;
+        margin-top:0;
+    }
+    header{
+        padding-bottom: 0px !important;;
+    }
+    .hero-text-box{
+        margin-bottom: 100px;
+    }
+    #icons{
+        margin-left:0 !important;
+        text-align: center;
+    }
+    
+    #workoutdiv{
+        display: inline-block;
+    }
+    .hero-text-box2{
+        margin-top:200px;
+    }
+    video#bgvid{
+        top:600px;
+    }
+    
+}
+@media (max-width:1024px){
+    #head{
+        background-attachment: local;
+    }
+    video#bgvid{
+        top:500px;
+        width:170vw;
+        position: absolute;
+    }
+    .bigFREE{
+        display: none;
+    }
+    
+}
+@media (max-width:865px){
+    video#bgvid{
+        top:400px;
+    }
+    .everylevel2{
+        font-size: 100px;
+    }
+}
+#locations{
+    background-color: white;
+    color:black;
+}
+
+
 .topline{
     height:100%;margin:5px;
     border-right:1px solid black;
@@ -1876,17 +1929,6 @@ video#bgvid {
     background-repeat: no-repeat;
 }
 
-@media (max-width:1024px){
-    #head{
-        background-attachment: local;
-    }
-    video#bgvid{
-        left:15%;
-    }
-    .bigFREE{
-        display: none;
-    }
-}
 .franchH{
     display: block;
     font-size:30px;
@@ -2135,6 +2177,12 @@ td{
     #estRow{
         padding-left:0px;
     }
+    #workoutdivP{
+        width:600px;
+    }
+    .hero-text-box2{
+        margin-top:175px;
+    }
 /*
     #investmenttable{
         margin-left:20px;
@@ -2144,7 +2192,201 @@ td{
     }
 */
 }
+@media (max-width:1850px){
+    #breaker{
+        display: block;
+    }
+    #icons{
+        text-align: left;
+    }
+}
+@media (max-width:991px){
+    #workoutdivP{
+        max-width: 450px;
+    }
+    .everylevel2{
+        font-size:100px;
+    }
+}
+@media (max-width:845px){
+    #workoutdivP{
+        max-width:400px;
+    }
+}
+@media (max-width:730px){
+    #workoutdivP{
+        max-width:400px;
+    }
+    #workoutdiv{
+        height:400px;
+    }
+    .everylevel2{
+        font-size:90px;
+    }
+/*
+    #icons{
+        text-align: center;
+    }
+*/
+}
+#kellyimg1{
+    height:100%;position: absolute;right: 0;
+}
+@media  (max-width:670px){
+    #kellyimg1{
+        height:calc(100% - 132px);
+        margin-top:132px;
+    }
+    .icons{
+        text-align: center;
+    }
+}
+@media (max-width:630px){
+    video#bgvid{
+        top:300px;
+    }
+    #workoutdivP{
+        max-width: 300px;
+    }
+    .everylevel2{
+        font-size:80px;
+    }
+}
+@media (max-width:587px){
+    video#bgvid{
+        width: 230vw;
+    }
+    .everylevel2{
+        font-size:70px;
+    }
+}
+.icons2{
+    display: none;
+}
+@media (max-width:500px){
+    .everylevel2{
+        font-size: 60px;
+    }
+    .hero-text-box2{
+        margin-top:110px
+    }
+    #workoutdivP{
+        max-width:230px;
+    }
+    #workoutdiv{
+        height:400px;
+    }
+    .workoutIcons{
+        padding:0;
+        padding-bottom:5px;
+    }
+    #kellyimg1{
+        height:calc(100% - 102px);
+        margin-top:102px;
+    }
+}
+.icons2{
+    display: none;
+}
+@media (max-width:470px){
+    #workoutdivP{
+        max-width:200px;
+    }
+    .icons2{
+        display: inline-block;
+    }
+    #icons1{
+        display: none;
+    }
+    #breaker{
+        display: none;
+    }
+    #workoutIcons{
+        display: inline;
+        font-size: 10px !important;
+    }
+    .workouttext{
+        font-size:8px;
+    }
+    #kellyimg1{
+        height:calc(100% - 65px);
+        margin-top:65px;
+    }
+    .hero-text-box2{
+        margin-top:65px
+    }
+    
+}
+/*margin-right:-5px;*/
+@media (max-width:450px){
+    .workouttext{
+        font-size:7px;
+    }
+    #workoutdivP{
+        max-width: 180px;
+        margin-bottom:30px;
+    }
+    .everylevel2{
+        font-size: 50px;
+    }
+}
+@media (max-width:425px){
+    .workouttext{
+        font-size:6px;
+    }
+    #workoutdivP{
+        max-width: 160px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:400px){
+    .workouttext{
+        font-size:5px;
+        margin-right:-5px;
+    }
+    #workoutdivP{
+        max-width: 140px;
+    }
+    .viewBTN{
+        position: relative;
+        z-index: 101;
+    }
+    video#bgvid{
+        top:280px;
+        width:170vw;
+    }
+}
+@media (max-width:370px){
 
+    #workoutdivP{
+        max-width: 130px;
+        margin-bottom: 30px;
+        position: relative;
+        z-index: 102;
+        text-shadow: 1px 1px grey;
+    }
+    .everylevel2{
+        font-size: 45px;
+    }
+    
+
+}
+
+@media (max-width:344px){
+    .workouttext{
+        font-size:4px;
+
+    }
+}
+@media (max-width:320px){
+    .workouttext{
+        font-size:3px;
+
+    }
+    .everylevel2{
+        font-size: 40px;
+    }
+}
 #clubmodel{
     z-index:3000 !important;
 }

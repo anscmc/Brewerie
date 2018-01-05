@@ -17,13 +17,14 @@
         
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        
+                <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700,900,900i" rel="stylesheet">
 <!--        <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&amp;subset=cyrillic,latin-ext,vietnamese" rel="stylesheet">-->
         
@@ -109,6 +110,7 @@
 
 
                <h1 class="everylevel" style="color:white !important;font-size:72px;text-shadow: 1px 1px 1px black;text-align: center;width:auto;display: inline-block;">FREE Workout</h1>
+                
 
                    <form data-forge-name="Quote" style="text-align: center">
                       <div class="form-group" style="margin:0;padding:0;width: 40%;display: inline-block;vertical-align: middle;">
@@ -118,7 +120,7 @@
                       <div class="form-group"  style="margin:0;padding:0;width: 40%;display: inline-block;vertical-align: middle;">
                         <label for="title">Location</label>
 <!--                        <input type="text" style="color: #BF202F;" data-forge-name="Location" class="form-control" id="title">-->
-                            <select style="color: #BF202F;" data-forge-name="Location" class="form-control" id="title">
+                            <select style="color: #BF202F;max-width:300px;margin:0 auto;" data-forge-name="Location" class="form-control" id="title">
                             <option>Erie, PA</option>
                             <option>Pittsburgh, PA</option>
                             <option>Buffalo, NY</option>
@@ -143,25 +145,38 @@
 
         </header>
 
-<div id="workoutdiv">
-    <div style="position: absolute;width: 100%;display: inline-block;background-color: white;z-index: 0;box-shadow: inset 0px 0px 10px 3px #BF202F;">
-        <div class="container">
-                    <div id="hook7"  class="hookcirlce"><img src="resources/css/img/frachise/bag.svg" style="display:inline;padding-bottom: 10px;" height=100> Heavy Bags</div>
-                    <div id="hook8"  class="hookcirlce" style="padding-top:0;padding-bottom: 0;"><img src="resources/css/img/frachise/kettle.svg" style="display:inline" height=100> Kettle Bells</div>
-                    <div  id="hook9" class="hookcirlce"><img src="resources/css/img/frachise/core.svg" style="display:inline;" height=100> Core Strength</div>
-                    <div id="hook10" class="hookcirlce"><i style="color:#EE3A43;font-size:50px;vertical-align: middle;margin-left:10px;margin-right:10px;" class="fa fa fa-clock-o" aria-hidden="true"></i> Time Intervals</div>
-                    <div  id="hook11" class="hookcirlce"><i style="color:#EE3A43;font-size:50px;vertical-align: middle;margin-left:7px;margin-right:5px;" class="fa fa fa-heartbeat" aria-hidden="true"></i> Heartrate Monitoring </div>
+<div id="workoutdiv" style="z-index: 100;position: relative;">
+    <div style="position: absolute;width: 100%;display: inline-block;background-color: white;z-index: 0;box-shadow: inset 0px 0px 10px 3px #BF202F;text-align: left;">
+        <div class="container icons" id="icons1">
+            
+                    <div class="workoutIcons"><img src="resources/css/img/frachise/bag.svg" style="display:inline;padding-bottom: 10px;" height=60> Heavy Bags</div>
+                    <div class="workoutIcons" style="padding-top:0;padding-bottom: 0;"><img src="resources/css/img/frachise/kettle.svg" style="display:inline" height=60> Kettle Bells</div>
+                    <div class="workoutIcons"><img src="resources/css/img/frachise/core.svg" style="display:inline;" height=60> Core Strength</div>
+            <div id="breaker"></div>
+                    <div class="workoutIcons"><i style="color:#EE3A43;font-size:30px;vertical-align: middle;margin-left:10px;margin-right:10px;" class="fa fa fa-clock-o" aria-hidden="true"></i> Time Intervals</div>
+                    <div class="workoutIcons"><i style="color:#EE3A43;font-size:30px;vertical-align: middle;margin-left:7px;margin-right:5px;" class="fa fa fa-heartbeat" aria-hidden="true"></i> Heartrate Monitoring </div>
+            </div>
+        <div class="container icons2">
+            
+                    <div class="workoutIcons"><img src="resources/css/img/frachise/bag.svg" style="display:inline;padding-bottom: 10px;" height=60><span class="workouttext">Heavy Bags</span></div>
+                    <div class="workoutIcons" style="padding-top:0;padding-bottom: 0;"><img src="resources/css/img/frachise/kettle.svg" style="display:inline" height=60><span class="workouttext">Heavy Bags</span></div>
+                    <div class="workoutIcons"><img src="resources/css/img/frachise/core.svg" style="display:inline;" height=60><span class="workouttext">Heavy Bags</span></div>
+            <div id="breaker"></div>
+                    <div class="workoutIcons"><i style="color:#EE3A43;font-size:30px;vertical-align: middle;margin-left:10px;margin-right:10px;" class="fa fa fa-clock-o" aria-hidden="true"></i><span class="workouttext">Heavy Bags</span></div>
+                    <div class="workoutIcons"><i style="color:#EE3A43;font-size:30px;vertical-align: middle;margin-left:7px;margin-right:5px;" class="fa fa fa-heartbeat" aria-hidden="true"></i><span class="workouttext">Heavy Bags</span></div>
             </div>
     </div>
     
-    <img src="resources/css/img/newimg/workoutkelly.png" style="height: 500px;position: absolute;right: 0;">
+    <img id="kellyimg1" src="resources/css/img/newimg/workoutkelly.png">
     <div class="container">
         <div>
         
         </div>
     <div class="hero-text-box2" style="padding-left:10px;padding-right:0px !important;">
-               <h1 class="everylevel" style="color:white !important;font-size:72px;text-shadow: 1px 1px 1px black;" >The Workout</h1>
-                <p class="boxinginspired" style="color:white !important;font-size:24px;" >Boxing inspired group fitness infused with kettle bell strength movements and core conditioning. Every class is a full body workout. Enjoy high calorie burn and body changing movements.</p>
+               <h1 class="everylevel" style="color:white !important;font-size:72px;text-shadow: 1px 1px 1px black;z-index: 100;position: relative" >The Workout</h1>
+
+        
+                <p id="workoutdivP" class="boxinginspired" style="color:white !important;font-size:24px;" >Boxing inspired group fitness infused with kettle bell strength movements and core conditioning. Every class is a full body workout. Enjoy high calorie burn and body changing movements.</p>
 
                           <a class="btn btn-full js--scroll-to-plans buyBtn viewBTN" href="theworkout.html" style="margin-bottom:10px;width:200px;font-size:16px;border-radius: 0;margin-left:0;box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);padding:5px;">The Workout <img src="resources/css/img/whiteR.svg" style="height:20px;vertical-align:middle;margin-bottom:2px;"></a>
             </div>
@@ -180,8 +195,8 @@
         </div>
 -->
         <div id="locations" class="locations" style="box-shadow: inset 0px 0px 10px 3px #BF202F;">        
-          <div class="container" style="padding:0;">
-              <div class="row" style="max-width:1200px;padding:0;">
+          <div class="container" style="padding:0;z-index: 1;">
+              <div class="row" style="max-width:1200px;padding:0;z-index: 1;">
             
                   <div class="col-sm-6">
                     <br>
@@ -235,7 +250,7 @@
                           <br>
                       </div>
                   </div>
-                  <div class="col-sm-6 mapWrap" style="padding-right: 0px;margin-bottom:5px;">
+                  <div class="col-sm-6 mapWrap" style="padding-right: 0px;margin-bottom:5px;z-index:0;margin-top:00px;z-index:1;">
                       <iframe
                   frameborder="0" class="locationsMap"
                   src="https://www.google.com/maps/d/embed?mid=1Ogqj24jQELs04cNmYwsppL0A2ZFPn6Xw&hl=en" allowfullscreen>
@@ -254,6 +269,44 @@
             <!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/8d1ca458e2085678ac222b560743c487.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;margin: 0;padding: 0;"></iframe>
 
         </div>
+        <div style="height:25px;background-color: white;"></div>
+        <h1 style="background-color: white;margin:0;text-align: center;">Testimonials</h1>
+        <div style="height:25px;background-color: white;"></div>
+<div style="width: 100%;background-color: white;">
+        <div class="w3-content w3-display-container">
+    <img class="mySlides" src="resources/css/img/testimonials/test1.jpg" style="width:100%">
+  <img class="mySlides" src="resources/css/img/testimonials/test2.jpg" style="width:100%">
+<img class="mySlides" src="resources/css/img/testimonials/test3.jpg" style="width:100%">
+            <img class="mySlides" src="resources/css/img/testimonials/test4.jpg" style="width:100%">
+            <img class="mySlides" src="resources/css/img/testimonials/test5.jpg" style="width:100%">
+            <img class="mySlides" src="resources/css/img/testimonials/test6.jpg" style="width:100%">
+            <img class="mySlides" src="resources/css/img/testimonials/test7.jpg" style="width:100%">
+            <img class="mySlides" src="resources/css/img/testimonials/test8.jpg" style="width:100%">
+            <img class="mySlides" src="resources/css/img/testimonials/test9.jpg" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
 <!--
         <div id="tryFree">
                     <div class="hero-text-box3" style="padding-left:10px;padding-right:0px !important;">
@@ -263,9 +316,8 @@
             </div>
         </div>
 -->
-    <div style="font-size:12px;font-weight:400 !important;text-align:center;background-color: white;border-top: 5px solid #BF202F;">
-       <div id="redlinefoot" style="border-top: 5px solid #BF202F"></div>
-        <br>
+    <div style="font-size:12px;font-weight:400 !important;text-align:center;background-color: white;">
+<br>
         <div class="container">
             <div class="row" style="text-align: center">
                 <a id="deskLogo" href="#" style="cursor: pointer;"><img src="resources/css/img/brand3.png" height=50px style="margin-bottom: 15px;"></a>
