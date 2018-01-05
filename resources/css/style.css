@@ -2313,7 +2313,10 @@ td{
         margin-top:65px;
     }
     .hero-text-box2{
-        margin-top:65px
+        margin-top:70px
+    }
+    #workoutdivP{
+        margin-top:5px !important;
     }
     
 }
