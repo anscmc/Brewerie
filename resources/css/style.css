@@ -2932,7 +2932,56 @@ input{
     }
     .hookcirlce{
         display:block;
-        
+    }
+}
+.locPromo{
+    display: inline-block;
+    height:400px;
+    vertical-align: middle;
+    margin-bottom:10px;
+}
+.locMap{
+    height:400px;
+    vertical-align: middle;
+    width: 346px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+@media (max-width:400px){
+    .locPromo{
+    display: inline-block;
+    width:100%;
+    vertical-align: middle;
+}
+.locMap{
+    height:400px;
+    vertical-align: middle;
+    width: 100%;
+    display: inline-block;
+}
+}
+.statWrap{
+    display: inline-block;
+    text-align: center;
+    margin:10px;
+    width:206px;
+}
+.bigNum{
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 75px;
+    color:#BF202F;
+    margin:0;
+    line-height: 75px;
+}
+.numText{
+    display: block;
+    font-size:14px;
+}
+@media (max-width:991px){
+    #locations{
+        width:100%;
     }
 }
 
