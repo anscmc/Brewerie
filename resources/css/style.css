@@ -57,12 +57,22 @@ ul dropdown:
     margin-right:0px;
     color:transparent;
 }
+.sliderMob{
+    display:none;
+}
+
 @media (max-width:768px){
     #hideLink{
         margin-right:0px;
     }
     #lefty{
         margin-right:5px;
+    }
+    .sliderMob{
+        display:block;
+    }
+    .sliderDesk{
+        display: none;
     }
 }
 @media (min-width:1025px){
@@ -143,7 +153,7 @@ h1{
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 .hero-text-box {
-    margin-top:100px;
+    margin-top:175px;
     text-align: left;
 /*    top: 20%;*/
 /*    left: 10%;*/
@@ -1808,6 +1818,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BF202F', end
     background-size: cover;
     width: 100%;
     z-index: 1;
+    -webkit-box-shadow: 0px 3px 10px 0px rgba(191,32,47,1);
+    box-shadow: 0px 3px 10px 0px rgba(191,32,47,1);
+}
+.testimonialpic{
+    display: inline-block;
+    margin:0;
+    width:33.33%;
+    margin-right:-4px;
+}
+@media (max-width:767px){
+    .testimonialpic{
+        width:100%;
+        margin:0;display: block;
+    }
 }
 #tryFree{
     background-image: url(img/newimg/jillian.jpg);
@@ -1857,7 +1881,7 @@ video#bgvid {
         padding-bottom: 0px !important;;
     }
     .hero-text-box{
-        margin-bottom: 100px;
+        margin-bottom: 150px;
     }
     #icons{
         margin-left:0 !important;
@@ -2850,6 +2874,14 @@ input{
 .freeBTN:hover{
     background-color: #BF202F !important;
     color: white !important;
+}
+.successBTN{
+    background-color: #BF202F;
+    color:white!important;
+}
+.successBTN:hover{
+    background-color: white !important;
+    color: #BF202F !important;
 }
 
 /*

@@ -24,7 +24,9 @@
         <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
-
+<link rel="stylesheet" href="ism/css/my-slider.css"/>
+        <link rel="stylesheet" href="ism/css/my-slider-mob.css"/>
+<script src="ism/js/ism-2.2.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700,900,900i" rel="stylesheet">
 <!--        <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&amp;subset=cyrillic,latin-ext,vietnamese" rel="stylesheet">-->
         
@@ -42,8 +44,6 @@ document.addEventListener('gesturestart', function (e) {
 });
         </script>
 
-        
-    
     </head>
     <body style="background-color: transparent;">
         <header class="landingHeader" style="background-color: rgba(0,0,0,.33);text-align: center">
@@ -178,7 +178,7 @@ document.addEventListener('gesturestart', function (e) {
         
                 <p id="workoutdivP" class="boxinginspired" style="color:white !important;font-size:24px;" >Boxing inspired group fitness infused with kettle bell strength movements and core conditioning. Every class is a full body workout. Enjoy high calorie burn and body changing movements.</p>
 
-                          <a class="btn btn-full js--scroll-to-plans buyBtn viewBTN" href="theworkout.html" style="margin-bottom:10px;width:200px;font-size:16px;border-radius: 0;margin-left:0;box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);padding:5px;">The Workout <img src="resources/css/img/whiteR.svg" style="height:20px;vertical-align:middle;margin-bottom:2px;"></a>
+                          <a class="btn btn-full js--scroll-to-plans buyBtn viewBTN" href="theworkout.html" style="margin-bottom:10px;width:200px;font-size:16px;border-radius: 0;margin-left:0;box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);padding:5px;">The Workout <img src="resources/css/img/whiteR.svg" style="height:20px;vertical-align:middle;margin-bottom:3px;"></a>
             </div>
         </div>
 </div>
@@ -216,7 +216,7 @@ document.addEventListener('gesturestart', function (e) {
                 <a target="_blank" class="socialButtons"><i style="padding-left:15px;padding-top:10px;font-size:30px;color:black;" class="fa fa-facebook-square" aria-hidden="true"></i></a>
                  <br>
                           <br>
-                          <a class="btn btn-full js--scroll-to-plans buyBtn viewBTN" href="http://www.levelredboxing.com" style="margin-bottom:10px;width:200px;font-size:16px;border-radius: 0px;margin-left: 14px;margin-left:0;padding:5px;">View Studio <img src="resources/css/img/whiteR.svg" style="height:20px;vertical-align:middle;margin-bottom:2px;"></a>
+                          <a class="btn btn-full js--scroll-to-plans buyBtn viewBTN" href="http://www.levelredboxing.com" style="margin-bottom:10px;width:200px;font-size:16px;border-radius: 0px;margin-left: 14px;margin-left:0;padding:5px;">View Studio <img src="resources/css/img/whiteR.svg" style="height:20px;vertical-align:middle;margin-bottom:3px;"></a>
                           <br>
                  <hr>
                        <span style="font-weight:900;">Pittsburgh, PA</span>
@@ -231,7 +231,7 @@ document.addEventListener('gesturestart', function (e) {
                 <a target="_blank" class="socialButtons"><i style="padding-left:15px;padding-top:10px;font-size:30px;color:black;" class="fa fa-facebook-square" aria-hidden="true"></i></a>
                 <br>
                           <br>
-                          <a class="btn btn-full js--scroll-to-plans buyBtn viewBTN" href="pittsburgh.html" style="margin-bottom:10px;width:200px;font-size:16px;border-radius: 0;margin-left: 14px;margin-left:0;padding:5px;">View Studio <img src="resources/css/img/whiteR.svg" style="height:20px;vertical-align:middle;margin-bottom:2px;"></a>
+                          <a class="btn btn-full js--scroll-to-plans buyBtn viewBTN" href="pittsburgh.html" style="margin-bottom:10px;width:200px;font-size:16px;border-radius: 0;margin-left: 14px;margin-left:0;padding:5px;">View Studio <img src="resources/css/img/whiteR.svg" style="height:20px;vertical-align:middle;margin-bottom:3px;"></a>
                           <br>
                       <hr>
                        <span style="font-weight:900;">Buffalo, NY</span>
@@ -246,7 +246,7 @@ document.addEventListener('gesturestart', function (e) {
                 <a target="_blank" class="socialButtons"><i style="padding-left:15px;padding-top:10px;font-size:30px;color:black;" class="fa fa-facebook-square" aria-hidden="true"></i></a>
                  <br>
                           <br>
-                          <a class="btn btn-full js--scroll-to-plans buyBtn viewBTN" href="buffalo.html" style="margin-bottom:10px;width:200px;font-size:16px;border-radius: 0;margin-left: 14px;margin-left:0;padding:5px;">View Studio <img src="resources/css/img/whiteR.svg" style="height:20px;vertical-align:middle;margin-bottom:2px;"></a>
+                          <a class="btn btn-full js--scroll-to-plans buyBtn viewBTN" href="buffalo.html" style="margin-bottom:10px;width:200px;font-size:16px;border-radius: 0;margin-left: 14px;margin-left:0;padding:5px;">View Studio <img src="resources/css/img/whiteR.svg" style="height:20px;vertical-align:middle;margin-bottom:3px;"></a>
                           <br>
                       </div>
                   </div>
@@ -265,57 +265,59 @@ document.addEventListener('gesturestart', function (e) {
         <div>
         
         </div>
-        <div style="display: inline-block;width:100%;background-color: white;">
+        <div style="display: inline-block;width:100%;background-color: white;padding-bottom:0px;margin-bottom:0px;">
             <!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/8d1ca458e2085678ac222b560743c487.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;margin: 0;padding: 0;"></iframe>
 
         </div>
-        <div style="height:25px;background-color: white;"></div>
-        <h1 style="background-color: white;margin:0;text-align: center;">Testimonials</h1>
-        <div style="height:25px;background-color: white;"></div>
-<div style="width: 100%;background-color: white;">
-        <div class="w3-content w3-display-container">
-    <img class="mySlides" src="resources/css/img/testimonials/test1.jpg" style="width:100%">
-  <img class="mySlides" src="resources/css/img/testimonials/test2.jpg" style="width:100%">
-<img class="mySlides" src="resources/css/img/testimonials/test3.jpg" style="width:100%">
-            <img class="mySlides" src="resources/css/img/testimonials/test4.jpg" style="width:100%">
-            <img class="mySlides" src="resources/css/img/testimonials/test5.jpg" style="width:100%">
-            <img class="mySlides" src="resources/css/img/testimonials/test6.jpg" style="width:100%">
-            <img class="mySlides" src="resources/css/img/testimonials/test7.jpg" style="width:100%">
-            <img class="mySlides" src="resources/css/img/testimonials/test8.jpg" style="width:100%">
-            <img class="mySlides" src="resources/css/img/testimonials/test9.jpg" style="width:100%">
-
-  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-</div>
-</div>
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-</script>
-<!--
-        <div id="tryFree">
-                    <div class="hero-text-box3" style="padding-left:10px;padding-right:0px !important;">
-               <h1 class="everylevel" style="color:white !important;font-size:72px;text-shadow: 1px 1px 1px black;" >Try it free today!</h1>
-                        <br>
-
+        <div style="background-color: #BF202F;text-align: center;">
+        <h1 style="background-color: #BF202F;text-align: center;display: inline-block;margin-right:5px;margin-top:12px;margin-bottom: 10px;color:white !important;">Testimonials </h1><a class="btn btn-full js--scroll-to-plans buyBtn successBTN" href="#" style="margin-bottom:10px;width:auto;font-size:16px !important;border-radius: 0px;margin-left: 14px;margin-left:0;padding:5px;">Submit Your Success Story <img src="resources/css/img/whiteR.svg" style="height:20px;vertical-align:middle;margin-bottom:2px;"></a>
             </div>
-        </div>
--->
+<div class="ism-slider sliderDesk" data-play_type="loop" data-radios="false" id="desktopSlider">
+  <ol>
+    <li>
+      <img src="ism/image/slides/_u/1515458544300_529000.jpg">
+    </li>
+    <li>
+      <img src="ism/image/slides/_u/1515458541523_421390.jpg">
+    </li>
+    <li>
+      <img src="ism/image/slides/_u/1515458538037_95855.jpg">
+    </li>
+  </ol>
+</div>
+        
+        <div class="ism-slider sliderMob" data-play_type="loop" data-radios="false" id="mobileSlider">
+  <ol>
+    <li>
+      <img src="ism/image/slides/_u/1515458818024_861317.jpg">
+    </li>
+    <li>
+      <img src="ism/image/slides/_u/1515458817811_844508.jpg">
+    </li>
+    <li>
+      <img src="ism/image/slides/_u/1515458817204_201970.jpg">
+    </li>
+    <li>
+      <img src="ism/image/slides/_u/1515458817445_270025.jpg">
+    </li>
+    <li>
+      <img src="ism/image/slides/_u/1515458817168_367565.jpg">
+    </li>
+    <li>
+      <img src="ism/image/slides/_u/1515458817047_367748.jpg">
+    </li>
+    <li>
+      <img src="ism/image/slides/_u/1515458817036_145225.jpg">
+    </li>
+    <li>
+      <img src="ism/image/slides/_u/1515458816927_432065.jpg">
+    </li>
+    <li>
+      <img src="ism/image/slides/_u/1515458816082_704827.jpg">
+    </li>
+  </ol>
+</div>
+           
     <div style="font-size:12px;font-weight:400 !important;text-align:center;background-color: white;">
 <br>
         <div class="container">
