@@ -1,4 +1,8 @@
-
+<!--
+<iframe class="locMap"
+                  frameborder="0" src="https://www.google.com/maps/d/embed?mid=1UzTU34XBlReIoWxzi-2A3K-Dz_aFsqev" allowfullscreen>
+                    </iframe>
+-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -13,7 +17,7 @@
         <link rel="stylesheet" type="text/css" href="resources/css/font-awesome/css/font-awesome.min.css">
         
 <!--        <link rel="stylesheet" type="text/css" href="resources/css/bootstrap.min.css">-->
-<!--       <script src="resources/js/jquery.waypoints.min.js"></script>-->
+       <script src="resources/js/jquery.waypoints.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -43,6 +47,24 @@
 document.addEventListener('gesturestart', function (e) {
     e.preventDefault();
 });
+                        $(document).ready(function(){
+                                            $('.bigNum').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 7000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
+
+            });
+            
+
+            
+
         </script>
 
     </head>
@@ -82,14 +104,14 @@ document.addEventListener('gesturestart', function (e) {
                                 <li><a class="aboutdrop" href="thelevels.html" >The Levels</a></li>
                                 <li><a class="aboutdrop" href="sixpunches.html">Learn the Moves</a></li>
 <!--                                <li><a class="aboutdrop" href="philosophy.html">Philosophy</a></li>-->
-                                <li><a class="aboutdrop" href="gallery.html">Gallery</a></li>
+<!--                                <li><a class="aboutdrop" href="gallery.html">Gallery</a></li>-->
 <!--                                <li><a href="faq.html">FAQ</a></li>-->
                                 <li><a class="aboutdrop" href="press.html">Press</a></li>
                                 <li><a class="aboutdrop" href="privateevents.html">Private Events</a></li>
                             </ul>
                         </li>
                         <li><a href="franchise.html" class="blacks">Franchise</a></li>
-                        <li><a href="buyclasses.html" class="blacks">Buy Classes</a></li>
+<!--                        <li><a href="#" class="blacks">Buy Classes</a></li>-->
                        
                         <li class="farright"><a href="https://clients.mindbodyonline.com/ASP/su1.asp?studioid=481565&tg=&vt=&lvl=&stype=&view=&trn=0&page=&catid=&prodid=&date=5%2f31%2f2017&classid=0&prodGroupId=&sSU=&optForwardingLink=&qParam=&justloggedin=&nLgIn=&pMode=0&loc=1" class="accountButton blacks" target="_blank">My Account</a></li>
                         <li class="freeLi"><a href="#locations" style="color:white !important;font-weight: bold;text-decoration: none; padding:5px;" href="schedule.html">FREE CLASS</a></li>
@@ -148,9 +170,8 @@ document.addEventListener('gesturestart', function (e) {
                 
                         <p class="numText">Trainers</p>
                         </div>
-                        <div class="statWrap">
-                            <span class="bigNum">750</span>
-                      
+                        <div class="statWrap" data-count="500">
+                            <span class="bigNum" data-count="750">750</span>
                         <p class="numText">Average Calories Burned Per Hour</p>
                         </div>
                         
@@ -258,29 +279,32 @@ document.addEventListener('gesturestart', function (e) {
     </li>
   </ol>
 </div>
+<!--
              <div style="background-color: #BF202F;text-align: center;">
 <a class="btn btn-full js--scroll-to-plans buyBtn successBTN" href="#" style="width:auto;font-size:16px !important;border-radius: 0px;margin-left:0;padding:5px;margin:3px;">Submit Your Success Story <img src="resources/css/img/whiteR.svg" style="height:20px;vertical-align:middle;margin-bottom:2px;"></a>
             </div>      
+-->
     <div style="font-size:12px;font-weight:400 !important;text-align:center;background-color: white;">
 <br>
         <div class="container">
             <div class="row" style="text-align: center">
                 <a id="deskLogo" href="#" style="cursor: pointer;"><img src="resources/css/img/brand3.png" height=50px style="margin-bottom: 15px;"></a>
                 <div class="col-sm-4">
-                    <a class="footText" href="locations.html">Free Class Pass</a>
-                    <a class="footText" href="locations.html">Locations</a>
+<!--                    <a class="footText" href="locations.html">Free Class Pass</a>-->
+<!--                    <a class="footText" href="locations.html">Locations</a>-->
                     <a class="footText" href="locations.html">Contact Us</a>
+                    <a class="footText" href="thelevels.html">The Levels</a>
+                </div>
+                <div class="col-sm-4">
+                    
+                    <a class="footText" href="theworkout.html">The Workout</a>
+                    <a class="footText" href="sixpunches.html">The Moves</a>
+                   
                 </div>
                 <div class="col-sm-4">
                     <a class="footText" href="theworkout.html">Franchise</a>
 <!--                    <a class="footText" href="theworkout.html">Philosophy</a>-->
-                    <a class="footText" href="theworkout.html">My Account</a>
-                </div>
-                <div class="col-sm-4">
-                    
-                    <a class="footText" href="thelevels.html">The Levels</a>
-                    <a class="footText" href="theworkout.html">The Workout</a>
-                    <a class="footText" href="theworkout.html">The Moves</a>
+                    <a class="footText" href="https://clients.mindbodyonline.com/ASP/su1.asp?studioid=481565&tg=&vt=&lvl=&stype=&view=&trn=0&page=&catid=&prodid=&date=5%2f31%2f2017&classid=0&prodGroupId=&sSU=&optForwardingLink=&qParam=&justloggedin=&nLgIn=&pMode=0&loc=1" target="_blank">My Account</a>
                 </div>
                 <br>
                 <div id="deskBot">
