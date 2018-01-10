@@ -1323,6 +1323,17 @@ header {
         width:175px;
         text-align: left;
 }
+    #top ul{
+        z-index:1000;
+    background-color:#BF202F;
+    border-radius:10px;
+        position:absolute;
+        right:70px !important;
+        -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.25);
+        box-shadow: 0 6px 12px rgba(0,0,0,.25);
+        width:175px;
+        text-align: left;
+    }
 /*
     .landingHeader{
         height:85vh;
